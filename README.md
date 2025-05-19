@@ -26,6 +26,7 @@
 
 ## 💻 About The Project
 
+merhaba
 As Kodlama.io, we decided to share examples of completed projects. Inspired by Clean Architecture, nArchitecture is a monolith project that showcases advanced development techniques. The project includes Clean Architecture, CQRS, Advanced Repository, Dynamic Querying, JWT, OTP, Google & Microsoft Auth, Role-Based Management, Distributed Caching (Redis), Logging (Serilog), Elastic Search, [Code Generator](https://github.com/kodlamaio-projects/nArchitecture.Gen) and much more. By contributing, you can support the project and learn new things.
 
 ### Built With
@@ -52,7 +53,7 @@ To get a local copy up and running follow these simple steps.
 - Run the following command to update submodules
   ```sh
    git submodule update --remote
-   ```
+  ```
 
 ## 🚀 Usage
 
