@@ -30,6 +30,12 @@ namespace Persistence.Seeds
         public static readonly Guid CityPlanningId = new("20000000-0000-0000-0000-000000000017");
         public static readonly Guid IndustrialDesignId = new("20000000-0000-0000-0000-000000000018");
 
+        // School of Foreign Languages Departments
+        public static readonly Guid ForeignLanguagesId = new("20000000-0000-0000-0000-000000000019");
+
+        // Faculty of General Studies Departments
+        public static readonly Guid GeneralCultureCoursesId = new("20000000-0000-0000-0000-000000000020");
+
         public static IEnumerable<Department> GetSeeds()
         {
             return new List<Department>
@@ -163,6 +169,24 @@ namespace Persistence.Seeds
                     Id = IndustrialDesignId,
                     Name = "Industrial Design",
                     FacultyId = FacultySeeds.ArchitectureFacultyId,
+                    CreatedDate = DateTime.Now
+                },
+
+                // School of Foreign Languages Departments
+                new Department
+                {
+                    Id = ForeignLanguagesId,
+                    Name = "Foreign Languages",
+                    FacultyId = FacultySeeds.SchoolOfForeignLanguagesFacultyId,
+                    CreatedDate = DateTime.Now
+                },
+
+                // Faculty of General Studies Departments
+                new Department
+                {
+                    Id = GeneralCultureCoursesId,
+                    Name = "General Culture Courses",
+                    FacultyId = FacultySeeds.FacultyOfGeneralStudiesId,
                     CreatedDate = DateTime.Now
                 }
             };

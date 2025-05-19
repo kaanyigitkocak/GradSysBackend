@@ -20,8 +20,6 @@ public class GraduationRequirementSetConfiguration : IEntityTypeConfiguration<Gr
         builder.Property(grs => grs.Description).HasColumnName("Description");
         builder.Property(grs => grs.CreatedByUserId).HasColumnName("CreatedByUserId");
         builder.Property(grs => grs.LastModifiedByUserId).HasColumnName("LastModifiedByUserId");
-        builder.Property(grs => grs.CreationDate).HasColumnName("CreationDate");
-        builder.Property(grs => grs.LastModificationDate).HasColumnName("LastModificationDate");
         builder.Property(grs => grs.CreatedDate).HasColumnName("CreatedDate").IsRequired();
         builder.Property(grs => grs.UpdatedDate).HasColumnName("UpdatedDate");
         builder.Property(grs => grs.DeletedDate).HasColumnName("DeletedDate");

@@ -18,7 +18,7 @@ public class Course : Entity<Guid> // courseId olacak primary key
     public virtual ICollection<RequirementMandatoryCourse> RequirementMandatoryCourses { get; set; } = new HashSet<RequirementMandatoryCourse>();
     public virtual ICollection<CourseTaken> CourseTakens { get; set; } = new HashSet<CourseTaken>();
 
-
+    
     public Course() { }
 
     public Course(Guid id, string courseCode, string courseName, int ects, CourseType courseType, Guid? departmentId = null)

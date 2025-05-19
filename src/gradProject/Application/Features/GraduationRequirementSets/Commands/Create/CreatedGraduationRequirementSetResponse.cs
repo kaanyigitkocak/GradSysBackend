@@ -13,7 +13,4 @@ public class CreatedGraduationRequirementSetResponse : IResponse
     public int? MinUniversityElectiveCoursesCount { get; set; }
     public string? Description { get; set; }
     public Guid CreatedByUserId { get; set; }
-    public Guid LastModifiedByUserId { get; set; }
-    public DateTime CreationDate { get; set; }
-    public DateTime LastModificationDate { get; set; }
 }

@@ -13,7 +13,7 @@ public class RegisterCommandValidator : AbstractValidator<RegisterCommand>
             .MinimumLength(6)
             .Must(StrongPassword)
             .WithMessage(
-                "Şifre en az bir büyük harf, bir küçük harf, bir sayı ve bir özel karakter içermelidir."
+                "Password must contain at least one uppercase letter, one lowercase letter, one number and one special character."
             );
         RuleFor(c => c.UserForRegisterDto.FirstName).NotEmpty();
         RuleFor(c => c.UserForRegisterDto.LastName).NotEmpty();
@@ -21,11 +21,11 @@ public class RegisterCommandValidator : AbstractValidator<RegisterCommand>
         
         // Öğrenci doğrulama
         RuleFor(c => c.UserForRegisterDto.StudentNumber).NotEmpty()
-            .WithMessage("Öğrenci numarası gereklidir.");
+            .WithMessage("Student number is required.");
         RuleFor(c => c.UserForRegisterDto.DepartmentId).NotEmpty()
-            .WithMessage("Bölüm bilgisi gereklidir.");
+            .WithMessage("Department information is required.");
         RuleFor(c => c.UserForRegisterDto.FacultyId).NotEmpty()
-            .WithMessage("Fakülte bilgisi gereklidir.");
+            .WithMessage("Faculty information is required.");
     }
 
     private bool StrongPassword(string value)

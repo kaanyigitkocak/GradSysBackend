@@ -1,5 +1,6 @@
 using NArchitecture.Core.Persistence.Repositories;
 using Domain.Enums; // Namespace düzeltildi
+using System.ComponentModel.DataAnnotations.Schema; // ForeignKey attribute'u için eklendi
 
 namespace Domain.Entities; // Namespace düzeltildi
 
@@ -19,6 +20,8 @@ public class Student : Entity<Guid> // UserId olacak primary key ve User'a FK
     // İlişki (Navigation Property)
     public virtual User User { get; set; }
     public virtual Department Department { get; set; }
+
+    [ForeignKey("AssignedAdvisorUserId")]
     public virtual User? AssignedAdvisor { get; set; }
 
     public Student()

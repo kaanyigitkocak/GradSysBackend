@@ -16,10 +16,7 @@ public class UpdateGraduationRequirementSetCommand : IRequest<UpdatedGraduationR
     public int? MinNonTechnicalElectiveCoursesCount { get; set; }
     public int? MinUniversityElectiveCoursesCount { get; set; }
     public string? Description { get; set; }
-    public Guid CreatedByUserId { get; set; }
     public Guid LastModifiedByUserId { get; set; }
-    public DateTime CreationDate { get; set; }
-    public DateTime LastModificationDate { get; set; }
 
     public class UpdateGraduationRequirementSetCommandHandler : IRequestHandler<UpdateGraduationRequirementSetCommand, UpdatedGraduationRequirementSetResponse>
     {
@@ -40,6 +37,8 @@ public class UpdateGraduationRequirementSetCommand : IRequest<UpdatedGraduationR
             GraduationRequirementSet? graduationRequirementSet = await _graduationRequirementSetRepository.GetAsync(predicate: grs => grs.Id == request.Id, cancellationToken: cancellationToken);
             await _graduationRequirementSetBusinessRules.GraduationRequirementSetShouldExistWhenSelected(graduationRequirementSet);
             graduationRequirementSet = _mapper.Map(request, graduationRequirementSet);
+
+            graduationRequirementSet!.UpdatedDate = DateTime.UtcNow;
 
             await _graduationRequirementSetRepository.UpdateAsync(graduationRequirementSet!);
 

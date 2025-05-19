@@ -19,6 +19,11 @@ public class StaffConfiguration : IEntityTypeConfiguration<Staff>
         builder.Property(s => s.UpdatedDate).HasColumnName("UpdatedDate");
         builder.Property(s => s.DeletedDate).HasColumnName("DeletedDate");
 
+        // User ile bire bir ilişki (Staff, User'a bağımlı ve Id'si User.Id'ye FK)
+        builder.HasOne(s => s.User)
+               .WithOne(u => u.StaffProfile)
+               .HasForeignKey<Staff>(s => s.Id);
+
         builder.HasQueryFilter(s => !s.DeletedDate.HasValue);
     }
 }

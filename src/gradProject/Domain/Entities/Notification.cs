@@ -11,7 +11,6 @@ public class Notification : Entity<Guid> // notificationId olacak primary key
     public bool IsRead { get; set; } = false;
     public DateTime CreationDate { get; set; } // Timestamp
     public Guid? RelatedProcessId { get; set; }
-    public Guid? RelatedDocumentId { get; set; }
 
     // Navigation Properties
     public virtual User RecipientUser { get; set; }
@@ -19,7 +18,7 @@ public class Notification : Entity<Guid> // notificationId olacak primary key
 
     public Notification() { }
 
-    public Notification(Guid id, Guid recipientUserId, string title, string message, DateTime creationDate, bool isRead = false, Guid? relatedProcessId = null, Guid? relatedDocumentId = null)
+    public Notification(Guid id, Guid recipientUserId, string title, string message, DateTime creationDate, bool isRead = false, Guid? relatedProcessId = null)
     {
         Id = id;
         RecipientUserId = recipientUserId;
@@ -28,6 +27,6 @@ public class Notification : Entity<Guid> // notificationId olacak primary key
         IsRead = isRead;
         CreationDate = creationDate;
         RelatedProcessId = relatedProcessId;
-        RelatedDocumentId = relatedDocumentId;
+
     }
 } 

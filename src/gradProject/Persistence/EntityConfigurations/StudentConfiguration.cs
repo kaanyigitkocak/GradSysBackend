@@ -23,6 +23,17 @@ public class StudentConfiguration : IEntityTypeConfiguration<Student>
         builder.Property(s => s.UpdatedDate).HasColumnName("UpdatedDate");
         builder.Property(s => s.DeletedDate).HasColumnName("DeletedDate");
 
+        // Danışman ilişkisi
+        builder.HasOne(s => s.AssignedAdvisor)
+               .WithMany() // User tarafında bir navigation property yoksa bu şekilde bırakılır.
+               .HasForeignKey(s => s.AssignedAdvisorUserId)
+               .IsRequired(false); // AssignedAdvisorUserId nullable olduğu için false
+
+        // User ile ana bire bir ilişki (Student, User'a bağımlı ve Id'si User.Id'ye FK)
+        builder.HasOne(s => s.User)
+               .WithOne(u => u.StudentProfile)
+               .HasForeignKey<Student>(s => s.Id);
+
         builder.HasQueryFilter(s => !s.DeletedDate.HasValue);
     }
 }

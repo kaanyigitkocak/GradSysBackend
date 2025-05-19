@@ -14,8 +14,5 @@ public class CreateGraduationRequirementSetCommandValidator : AbstractValidator<
         RuleFor(c => c.MinUniversityElectiveCoursesCount).NotEmpty();
         RuleFor(c => c.Description).NotEmpty();
         RuleFor(c => c.CreatedByUserId).NotEmpty();
-        RuleFor(c => c.LastModifiedByUserId).NotEmpty();
-        RuleFor(c => c.CreationDate).NotEmpty();
-        RuleFor(c => c.LastModificationDate).NotEmpty();
     }
 }

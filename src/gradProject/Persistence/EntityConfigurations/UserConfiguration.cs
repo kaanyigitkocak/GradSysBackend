@@ -29,12 +29,12 @@ namespace Persistence.EntityConfigurations
             builder.HasData(GetSeeds());
         }
 
-        public static Guid SystemAdminUserId { get; } = new Guid("11111111-1111-1111-1111-111111111111");
-        public static Guid StudentUserId { get; } = new Guid("22222222-2222-2222-2222-222222222222");
-        public static Guid StudentAffairsStaffUserId { get; } = new Guid("33333333-3333-3333-3333-333333333333");
-        public static Guid AdvisorUserId { get; } = new Guid("44444444-4444-4444-4444-444444444444");
-        public static Guid DepartmentSecretaryUserId { get; } = new Guid("55555555-5555-5555-5555-555555555555");
-        public static Guid DeansOfficeStaffUserId { get; } = new Guid("66666666-6666-6666-6666-666666666666");
+        public static Guid SystemAdminUserId { get; } = new Guid("11111111-1111-1111-1111-11111111111A");
+        public static Guid StudentUserId { get; } = new Guid("22222222-2222-2222-2222-22222222222A");
+        public static Guid StudentAffairsStaffUserId { get; } = new Guid("33333333-3333-3333-3333-33333333333A");
+        public static Guid AdvisorUserId { get; } = new Guid("44444444-4444-4444-4444-44444444444A");
+        public static Guid DepartmentSecretaryUserId { get; } = new Guid("55555555-5555-5555-5555-55555555555A");
+        public static Guid DeansOfficeStaffUserId { get; } = new Guid("66666666-6666-6666-6666-66666666666A");
 
 
         private IEnumerable<User> GetSeeds()
@@ -58,7 +58,7 @@ namespace Persistence.EntityConfigurations
             yield return new User
             {
                 Id = StudentUserId,
-                Email = "student@university.edu",
+                Email = "student@std.iyte.edu.tr",
                 PasswordHash = studentHash,
                 PasswordSalt = studentSalt,
                 AuthenticatorType = 0,
@@ -73,7 +73,7 @@ namespace Persistence.EntityConfigurations
             yield return new User
             {
                 Id = StudentAffairsStaffUserId,
-                Email = "studentaffairs@university.edu",
+                Email = "studentaffairs@iyte.edu.tr",
                 PasswordHash = studentAffairsHash,
                 PasswordSalt = studentAffairsSalt,
                 AuthenticatorType = 0,
@@ -88,7 +88,7 @@ namespace Persistence.EntityConfigurations
             yield return new User
             {
                 Id = AdvisorUserId,
-                Email = "advisor@university.edu",
+                Email = "advisor@iyte.edu.tr",
                 PasswordHash = advisorHash,
                 PasswordSalt = advisorSalt,
                 AuthenticatorType = 0,
@@ -103,7 +103,7 @@ namespace Persistence.EntityConfigurations
             yield return new User
             {
                 Id = DepartmentSecretaryUserId,
-                Email = "deptsecretary@university.edu",
+                Email = "deptsecretary@iyte.edu.tr",
                 PasswordHash = deptSecretaryHash,
                 PasswordSalt = deptSecretarySalt,
                 AuthenticatorType = 0,
@@ -118,7 +118,7 @@ namespace Persistence.EntityConfigurations
             yield return new User
             {
                 Id = DeansOfficeStaffUserId,
-                Email = "deansoffice@university.edu",
+                Email = "deansoffice@iyte.edu.tr",
                 PasswordHash = deansOfficeHash,
                 PasswordSalt = deansOfficeSalt,
                 AuthenticatorType = 0,

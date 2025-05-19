@@ -12,7 +12,6 @@ public class TranscriptDataConfiguration : IEntityTypeConfiguration<TranscriptDa
 
         builder.Property(td => td.Id).HasColumnName("Id").IsRequired();
         builder.Property(td => td.StudentUserId).HasColumnName("StudentUserId");
-        builder.Property(td => td.SourceFileAttachment).HasColumnName("SourceFileAttachment");
         builder.Property(td => td.ParsingDate).HasColumnName("ParsingDate");
         builder.Property(td => td.ParsedGpa).HasColumnName("ParsedGpa");
         builder.Property(td => td.ParsedEcts).HasColumnName("ParsedEcts");
@@ -20,6 +19,7 @@ public class TranscriptDataConfiguration : IEntityTypeConfiguration<TranscriptDa
         builder.Property(td => td.CreatedDate).HasColumnName("CreatedDate").IsRequired();
         builder.Property(td => td.UpdatedDate).HasColumnName("UpdatedDate");
         builder.Property(td => td.DeletedDate).HasColumnName("DeletedDate");
+
 
         builder.HasQueryFilter(td => !td.DeletedDate.HasValue);
     }

@@ -7,6 +7,7 @@ public class GraduationRequirementSet : Entity<Guid> // requirementSetId olacak 
 {
     // requirementSetId (Guid, Primary Key) -> Id
     public Guid DepartmentId { get; set; } // _fk kaldırıldı, PascalCase
+    public string AcademicTerm { get; set; } // EKLENDİ: Bu koşul setinin hangi akademik dönem için geçerli olduğunu belirtir.
     public decimal MinGpa { get; set; } // PascalCase
     public int TotalMinEcts { get; set; } // PascalCase
     public int? MinTechnicalElectiveCoursesCount { get; set; } // PascalCase
@@ -15,8 +16,7 @@ public class GraduationRequirementSet : Entity<Guid> // requirementSetId olacak 
     public string? Description { get; set; } // PascalCase
     public Guid CreatedByUserId { get; set; } // _fk kaldırıldı, PascalCase
     public Guid LastModifiedByUserId { get; set; } // _fk kaldırıldı, PascalCase
-    public DateTime CreationDate { get; set; } // PascalCase
-    public DateTime LastModificationDate { get; set; } // PascalCase
+
 
     // Navigation Properties
     public virtual Department Department { get; set; }
@@ -24,12 +24,13 @@ public class GraduationRequirementSet : Entity<Guid> // requirementSetId olacak 
     public virtual User LastModifiedByUser { get; set; }
     public virtual ICollection<RequirementMandatoryCourse> MandatoryCourses { get; set; } = new HashSet<RequirementMandatoryCourse>();
 
-    public GraduationRequirementSet() { }
+    public GraduationRequirementSet() { MandatoryCourses = new HashSet<RequirementMandatoryCourse>(); }
 
-    public GraduationRequirementSet(Guid id, Guid departmentId, decimal minGpa, int totalMinEcts, Guid createdByUserId, Guid lastModifiedByUserId, DateTime creationDate, DateTime lastModificationDate, int? minTech = null, int? minNonTech = null, int? minUniv = null, string? desc = null)
+    public GraduationRequirementSet(Guid id, Guid departmentId, string academicTerm, decimal minGpa, int totalMinEcts, Guid createdByUserId, Guid lastModifiedByUserId, int? minTech = null, int? minNonTech = null, int? minUniv = null, string? desc = null) : this()
     {
         Id = id;
         DepartmentId = departmentId;
+        AcademicTerm = academicTerm;
         MinGpa = minGpa;
         TotalMinEcts = totalMinEcts;
         MinTechnicalElectiveCoursesCount = minTech;
@@ -38,8 +39,5 @@ public class GraduationRequirementSet : Entity<Guid> // requirementSetId olacak 
         Description = desc;
         CreatedByUserId = createdByUserId;
         LastModifiedByUserId = lastModifiedByUserId;
-        CreationDate = creationDate;
-        LastModificationDate = lastModificationDate;
-        MandatoryCourses = new HashSet<RequirementMandatoryCourse>();
     }
 } 

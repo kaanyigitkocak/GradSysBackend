@@ -16,9 +16,7 @@ public class CreateGraduationRequirementSetCommand : IRequest<CreatedGraduationR
     public int? MinUniversityElectiveCoursesCount { get; set; }
     public string? Description { get; set; }
     public Guid CreatedByUserId { get; set; }
-    public Guid LastModifiedByUserId { get; set; }
-    public DateTime CreationDate { get; set; }
-    public DateTime LastModificationDate { get; set; }
+
 
     public class CreateGraduationRequirementSetCommandHandler : IRequestHandler<CreateGraduationRequirementSetCommand, CreatedGraduationRequirementSetResponse>
     {
@@ -37,6 +35,10 @@ public class CreateGraduationRequirementSetCommand : IRequest<CreatedGraduationR
         public async Task<CreatedGraduationRequirementSetResponse> Handle(CreateGraduationRequirementSetCommand request, CancellationToken cancellationToken)
         {
             GraduationRequirementSet graduationRequirementSet = _mapper.Map<GraduationRequirementSet>(request);
+
+            graduationRequirementSet.LastModifiedByUserId = request.CreatedByUserId;
+            graduationRequirementSet.CreatedDate = DateTime.UtcNow;
+            graduationRequirementSet.UpdatedDate = DateTime.UtcNow;
 
             await _graduationRequirementSetRepository.AddAsync(graduationRequirementSet);
 

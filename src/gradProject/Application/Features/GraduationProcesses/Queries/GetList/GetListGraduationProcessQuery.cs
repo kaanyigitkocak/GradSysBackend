@@ -1,10 +1,12 @@
 using Application.Services.Repositories;
 using AutoMapper;
 using Domain.Entities;
+using MediatR;
 using NArchitecture.Core.Application.Requests;
 using NArchitecture.Core.Application.Responses;
 using NArchitecture.Core.Persistence.Paging;
-using MediatR;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Application.Features.GraduationProcesses.Queries.GetList;
 
@@ -35,4 +37,4 @@ public class GetListGraduationProcessQuery : IRequest<GetListResponse<GetListGra
             return response;
         }
     }
-}
+} 

@@ -1,6 +1,8 @@
 ﻿using Application.Services.ImageService;
 using Application.SubServices.MailService;
+using Application.SubServices.StorageService;
 using Infrastructure.Adapters.ImageService;
+using Infrastructure.Adapters.Storage;
 using Infrastructure.Mailing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -16,7 +18,8 @@ public static class InfrastructureServiceRegistration
         // SmtpMailSettings yapılandırmasını ekle
         services.Configure<SmtpMailSettings>(options => configuration.GetSection("SmtpMailSettings").Bind(options));
         services.AddScoped<IMailService, MailService>();
-
+        services.AddScoped<IStorage, AzureStorage>();
+        services.AddScoped<IAzureStorage, AzureStorage>();
         return services;
     }
 }
