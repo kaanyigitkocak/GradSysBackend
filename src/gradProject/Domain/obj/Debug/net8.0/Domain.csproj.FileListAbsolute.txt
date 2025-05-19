@@ -1,0 +1,13 @@
+/Users/yigit/Projects/GradReq/GradProject/src/gradProject/Domain/bin/Debug/net8.0/Domain.deps.json
+/Users/yigit/Projects/GradReq/GradProject/src/gradProject/Domain/bin/Debug/net8.0/Domain.dll
+/Users/yigit/Projects/GradReq/GradProject/src/gradProject/Domain/bin/Debug/net8.0/Domain.pdb
+/Users/yigit/Projects/GradReq/GradProject/src/gradProject/Domain/obj/Debug/net8.0/Domain.csproj.AssemblyReference.cache
+/Users/yigit/Projects/GradReq/GradProject/src/gradProject/Domain/obj/Debug/net8.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yigit/Projects/GradReq/GradProject/src/gradProject/Domain/obj/Debug/net8.0/Domain.AssemblyInfoInputs.cache
+/Users/yigit/Projects/GradReq/GradProject/src/gradProject/Domain/obj/Debug/net8.0/Domain.AssemblyInfo.cs
+/Users/yigit/Projects/GradReq/GradProject/src/gradProject/Domain/obj/Debug/net8.0/Domain.csproj.CoreCompileInputs.cache
+/Users/yigit/Projects/GradReq/GradProject/src/gradProject/Domain/obj/Debug/net8.0/Domain.sourcelink.json
+/Users/yigit/Projects/GradReq/GradProject/src/gradProject/Domain/obj/Debug/net8.0/Domain.dll
+/Users/yigit/Projects/GradReq/GradProject/src/gradProject/Domain/obj/Debug/net8.0/refint/Domain.dll
+/Users/yigit/Projects/GradReq/GradProject/src/gradProject/Domain/obj/Debug/net8.0/Domain.pdb
+/Users/yigit/Projects/GradReq/GradProject/src/gradProject/Domain/obj/Debug/net8.0/ref/Domain.dll
