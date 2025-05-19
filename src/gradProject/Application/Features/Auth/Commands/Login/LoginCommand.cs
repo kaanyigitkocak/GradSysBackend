@@ -85,16 +85,8 @@ public class LoginCommand : IRequest<LoggedResponse>
             // Kullanıcının yetkilerini al
             IList<OperationClaim> userOperationClaims = await _userOperationClaimRepository.GetOperationClaimsByUserIdAsync(user.Id);
             
-            // Admin veya Student rolünü kontrol et
-            string userRole = string.Empty;
-            if (userOperationClaims.Any(oc => oc.Name == BaseOperationClaims.Admin))
-            {
-                userRole = BaseOperationClaims.Admin;
-            }
-            else if (userOperationClaims.Any(oc => oc.Name == BaseOperationClaims.Student))
-            {
-                userRole = BaseOperationClaims.Student;
-            }
+            // Kullanıcının ilk operation claim'ini al (kullanıcının tek bir claim'i olduğu varsayımıyla)
+            string? userRole = userOperationClaims.FirstOrDefault()?.Name;
 
             loggedResponse.AccessToken = createdAccessToken;
             loggedResponse.RefreshToken = addedRefreshToken;

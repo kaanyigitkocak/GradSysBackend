@@ -38,7 +38,7 @@ public class StartGraduationForAllStudentsCommand : IRequest<StartedGraduationFo
         public async Task<StartedGraduationForAllStudentsResponse> Handle(StartGraduationForAllStudentsCommand request, CancellationToken cancellationToken)
         {
             IPaginate<Student> students = await _studentRepository.GetListAsync(
-                predicate: s => s.User != null && s.User.IsActive, // Sadece aktif kullanıcı profili olan öğrenciler
+                predicate: s => s.User != null, // Removed s.User.IsActive check
                 cancellationToken: cancellationToken
             );
 
