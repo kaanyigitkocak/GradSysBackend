@@ -76,7 +76,7 @@ namespace Persistence.Migrations
                             CourseCode = "MATH 141",
                             CourseName = "Calculus I",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3380),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(450),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000014"),
                             Ects = 5
                         },
@@ -86,7 +86,7 @@ namespace Persistence.Migrations
                             CourseCode = "PHYS 121",
                             CourseName = "Physics I",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3390),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(450),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000012"),
                             Ects = 7
                         },
@@ -96,7 +96,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 111",
                             CourseName = "Introduction to Computer Engineering",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3390),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(450),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 5
                         },
@@ -106,7 +106,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 113",
                             CourseName = "Introduction to Programming",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3390),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(450),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 6
                         },
@@ -116,7 +116,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 115",
                             CourseName = "Discrete Structures",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3400),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(460),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 5
                         },
@@ -126,7 +126,7 @@ namespace Persistence.Migrations
                             CourseCode = "ENG 101",
                             CourseName = "Academic English I",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3400),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(460),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000019"),
                             Ects = 3
                         },
@@ -136,7 +136,7 @@ namespace Persistence.Migrations
                             CourseCode = "MATH 142",
                             CourseName = "Calculus II",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3400),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(460),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000014"),
                             Ects = 6
                         },
@@ -146,7 +146,7 @@ namespace Persistence.Migrations
                             CourseCode = "PHYS 122",
                             CourseName = "Physics II",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3400),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(470),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000012"),
                             Ects = 8
                         },
@@ -156,7 +156,7 @@ namespace Persistence.Migrations
                             CourseCode = "MATH 144",
                             CourseName = "Finite Mathematics",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3410),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(470),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000014"),
                             Ects = 5
                         },
@@ -166,7 +166,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 112",
                             CourseName = "Data Structures",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3410),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(470),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 5
                         },
@@ -176,7 +176,7 @@ namespace Persistence.Migrations
                             CourseCode = "ECON 106",
                             CourseName = "Principles of Economics",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3410),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(480),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -186,7 +186,7 @@ namespace Persistence.Migrations
                             CourseCode = "ENG 102",
                             CourseName = "Academic English II",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3420),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(480),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000019"),
                             Ects = 3
                         },
@@ -196,7 +196,7 @@ namespace Persistence.Migrations
                             CourseCode = "GCC 101",
                             CourseName = "Career Planning and Development",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3420),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(480),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 0
                         },
@@ -206,7 +206,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 211",
                             CourseName = "Fundamentals of Programming",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3420),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(490),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 5
                         },
@@ -216,7 +216,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 213",
                             CourseName = "Theory of Computation",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3420),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(490),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 5
                         },
@@ -226,7 +226,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 215",
                             CourseName = "Circuits and Electronics",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3430),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(490),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 6
                         },
@@ -236,7 +236,7 @@ namespace Persistence.Migrations
                             CourseCode = "MATH 255",
                             CourseName = "Differential Equations",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3430),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(490),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000014"),
                             Ects = 6
                         },
@@ -246,7 +246,7 @@ namespace Persistence.Migrations
                             CourseCode = "HIST 201",
                             CourseName = "History of Turkish Republic I",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3430),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(500),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 2
                         },
@@ -256,7 +256,7 @@ namespace Persistence.Migrations
                             CourseCode = "TURK 201",
                             CourseName = "Turkish Language I",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3430),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(500),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 2
                         },
@@ -266,7 +266,7 @@ namespace Persistence.Migrations
                             CourseCode = "HIST 203",
                             CourseName = "History of Turkish Revolution I",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3440),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(500),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 2
                         },
@@ -276,7 +276,7 @@ namespace Persistence.Migrations
                             CourseCode = "TURK 203",
                             CourseName = "Turkish for International Students I",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3440),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(500),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 2
                         },
@@ -286,7 +286,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 212",
                             CourseName = "Programming Language Concepts",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3450),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(510),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 5
                         },
@@ -296,7 +296,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 214",
                             CourseName = "Logic Design",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3450),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(510),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 6
                         },
@@ -306,7 +306,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 216",
                             CourseName = "Numerical Computing",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3450),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(510),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 5
                         },
@@ -316,7 +316,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 218",
                             CourseName = "Analysis and Design of Algorithms",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3450),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(510),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 5
                         },
@@ -326,7 +326,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 222",
                             CourseName = "Probability and Statistics",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3460),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(520),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 5
                         },
@@ -336,7 +336,7 @@ namespace Persistence.Migrations
                             CourseCode = "HIST 202",
                             CourseName = "History of Turkish Republic II",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3460),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(520),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 2
                         },
@@ -346,7 +346,7 @@ namespace Persistence.Migrations
                             CourseCode = "TURK 202",
                             CourseName = "Turkish Language II",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3460),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(520),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 2
                         },
@@ -356,7 +356,7 @@ namespace Persistence.Migrations
                             CourseCode = "HIST 204",
                             CourseName = "History of Turkish Revolution II",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3460),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(520),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 2
                         },
@@ -366,7 +366,7 @@ namespace Persistence.Migrations
                             CourseCode = "TURK 204",
                             CourseName = "Turkish for International Students II",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3510),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(530),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 2
                         },
@@ -376,7 +376,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 311",
                             CourseName = "Computer Architecture",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3510),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(530),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 8
                         },
@@ -386,7 +386,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 315",
                             CourseName = "Information Management",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3510),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(540),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 6
                         },
@@ -396,7 +396,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 312",
                             CourseName = "Computer Networks",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3520),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(540),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 6
                         },
@@ -406,7 +406,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 316",
                             CourseName = "Software Engineering",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3520),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(540),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 6
                         },
@@ -416,7 +416,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 318",
                             CourseName = "Human-Computer Interaction",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3520),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(540),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 6
                         },
@@ -426,7 +426,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 322",
                             CourseName = "Operating Systems",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3520),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(550),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 8
                         },
@@ -436,7 +436,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 411",
                             CourseName = "Professionalism in Computer Engineering",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3530),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(550),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 6
                         },
@@ -446,7 +446,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 415",
                             CourseName = "Undergraduate Thesis and Seminar I",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3530),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(550),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 8
                         },
@@ -456,7 +456,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 416",
                             CourseName = "Undergraduate Thesis and Seminar II",
                             CourseType = 1,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3530),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(560),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 8
                         },
@@ -466,7 +466,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 370",
                             CourseName = "Mainframe Computers",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3530),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(560),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -476,7 +476,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 381",
                             CourseName = "Stochastic Processes",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3540),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(560),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -486,7 +486,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 382",
                             CourseName = "Information Theory",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3540),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(560),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -496,7 +496,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 383",
                             CourseName = "Real-Time Systems",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3540),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(570),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -506,7 +506,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 384",
                             CourseName = "Microprocessors",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3540),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(570),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -516,7 +516,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 385",
                             CourseName = "Mathematical Logic",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3550),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(570),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -526,7 +526,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 386",
                             CourseName = "Fuzzy Logic Systems",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3550),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(570),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -536,7 +536,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 388",
                             CourseName = "Web Programming",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3550),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(580),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -546,7 +546,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 389",
                             CourseName = "Mobile Application Development",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3550),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(580),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -556,7 +556,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 390",
                             CourseName = "Cloud Computing",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3560),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(580),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -566,7 +566,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 391",
                             CourseName = "Introduction to Image Understanding",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3560),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(580),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -576,7 +576,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 421",
                             CourseName = "Computer Network Programming",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3560),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(590),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -586,7 +586,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 422",
                             CourseName = "Computer Network Design and Management",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3560),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(590),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -596,7 +596,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 431",
                             CourseName = "Software Systems Development",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3570),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(590),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -606,7 +606,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 432",
                             CourseName = "Fundamentals of Enterprise Application Development",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3570),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(590),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -616,7 +616,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 433",
                             CourseName = "Scalable Software Development for the Internet",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3570),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(600),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -626,7 +626,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 434",
                             CourseName = "Enterprise Application Integrations",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3570),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(600),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -636,7 +636,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 435",
                             CourseName = "Database Management System Design and Implementation",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3580),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(600),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -646,7 +646,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 436",
                             CourseName = "Distributed Information Management",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3580),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(600),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -656,7 +656,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 437",
                             CourseName = "Software Quality Management",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3580),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(610),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -666,7 +666,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 441",
                             CourseName = "Introduction to Parallel Programming",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3580),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(610),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -676,7 +676,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 442",
                             CourseName = "Multi-Core Architectures and Operating Systems",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3590),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(620),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -686,7 +686,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 443",
                             CourseName = "Heterogeneous Parallel Programming",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3600),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(620),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -696,7 +696,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 444",
                             CourseName = "Parallel Programming Patterns",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3600),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(620),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -706,7 +706,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 451",
                             CourseName = "Advanced Digital System Design",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3600),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(620),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -716,7 +716,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 452",
                             CourseName = "Software Development for Embedded Systems",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3600),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(630),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -726,7 +726,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 461",
                             CourseName = "Artificial Intelligence",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3610),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(630),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -736,7 +736,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 462",
                             CourseName = "Soft Computing",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3610),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(630),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -746,7 +746,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 463",
                             CourseName = "Introduction to Machine Learning",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3610),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(640),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -756,7 +756,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 464",
                             CourseName = "Text Mining",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3610),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(640),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -766,7 +766,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 465",
                             CourseName = "Principles of Data-Intensive Systems",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3620),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(640),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -776,7 +776,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 471",
                             CourseName = "Cryptography",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3620),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(640),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -786,7 +786,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 472",
                             CourseName = "Computer Network Security",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3620),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(650),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -796,7 +796,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 473",
                             CourseName = "Information and Communication Technologies Security",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3620),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(650),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -806,7 +806,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 481",
                             CourseName = "Theoretical Approaches in Computer Science",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3630),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(650),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -816,7 +816,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 482",
                             CourseName = "Evolutionary Computation",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3630),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(650),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -826,7 +826,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 483",
                             CourseName = "Behavioral Robotics",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3630),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(660),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -836,7 +836,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 484",
                             CourseName = "Data Mining",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3630),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(660),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -846,7 +846,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 485",
                             CourseName = "Entrepreneurship in Information Technologies",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3640),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(660),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -856,7 +856,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 486",
                             CourseName = "Entrepreneurship for Smart Businesses",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3640),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(660),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -866,7 +866,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 487",
                             CourseName = "Introduction to Computer Graphics",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3640),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(670),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -876,7 +876,7 @@ namespace Persistence.Migrations
                             CourseCode = "CENG 488",
                             CourseName = "Computer Graphics",
                             CourseType = 2,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3640),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(670),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
                             Ects = 3
                         },
@@ -886,7 +886,7 @@ namespace Persistence.Migrations
                             CourseCode = "ART 201",
                             CourseName = "Drawing-Sketch",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3650),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(670),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -896,7 +896,7 @@ namespace Persistence.Migrations
                             CourseCode = "ART 202",
                             CourseName = "Painting",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3650),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(670),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -906,7 +906,7 @@ namespace Persistence.Migrations
                             CourseCode = "ART 203",
                             CourseName = "Sculpture",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3650),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(680),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -916,7 +916,7 @@ namespace Persistence.Migrations
                             CourseCode = "ART 204",
                             CourseName = "Artistic Ceramics",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3650),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(680),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -926,7 +926,7 @@ namespace Persistence.Migrations
                             CourseCode = "ART 205",
                             CourseName = "Color Photography",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3660),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(680),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -936,7 +936,7 @@ namespace Persistence.Migrations
                             CourseCode = "ART 206",
                             CourseName = "Introduction to Sound Production and Design",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3660),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(680),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -946,7 +946,7 @@ namespace Persistence.Migrations
                             CourseCode = "ART 210",
                             CourseName = "Western Music and Aesthetics",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3660),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(690),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -956,7 +956,7 @@ namespace Persistence.Migrations
                             CourseCode = "ART 211",
                             CourseName = "Music Workshop",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3660),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(690),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -966,7 +966,7 @@ namespace Persistence.Migrations
                             CourseCode = "ART 212",
                             CourseName = "Introduction to Harmony",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3670),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(690),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -976,7 +976,7 @@ namespace Persistence.Migrations
                             CourseCode = "ART 230",
                             CourseName = "Dance Education",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3680),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(700),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -986,7 +986,7 @@ namespace Persistence.Migrations
                             CourseCode = "ART 231",
                             CourseName = "Traditional Folk Dances I",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3680),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(710),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -996,7 +996,7 @@ namespace Persistence.Migrations
                             CourseCode = "ART 232",
                             CourseName = "Traditional Folk Dances II",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3680),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(710),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1006,7 +1006,7 @@ namespace Persistence.Migrations
                             CourseCode = "CHN 201",
                             CourseName = "Basic Chinese I",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3680),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(710),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1016,7 +1016,7 @@ namespace Persistence.Migrations
                             CourseCode = "FREN 201",
                             CourseName = "Basic French I",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3690),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(710),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1026,7 +1026,7 @@ namespace Persistence.Migrations
                             CourseCode = "FREN 202",
                             CourseName = "Basic French II",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3690),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(720),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1036,7 +1036,7 @@ namespace Persistence.Migrations
                             CourseCode = "FREN 203",
                             CourseName = "Intermediate French I",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3690),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(720),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1046,7 +1046,7 @@ namespace Persistence.Migrations
                             CourseCode = "GER 201",
                             CourseName = "Basic German I",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3690),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(720),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1056,7 +1056,7 @@ namespace Persistence.Migrations
                             CourseCode = "GER 202",
                             CourseName = "Basic German II",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3700),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(720),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1066,7 +1066,7 @@ namespace Persistence.Migrations
                             CourseCode = "GER 203",
                             CourseName = "Intermediate German I",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3700),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(730),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1076,7 +1076,7 @@ namespace Persistence.Migrations
                             CourseCode = "GER 204",
                             CourseName = "Intermediate German II",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3700),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(730),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1086,7 +1086,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 203",
                             CourseName = "Introduction to Social Anthropology",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3700),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(730),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1096,7 +1096,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 205",
                             CourseName = "Current Issues in Turkish Language",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3710),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(730),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1106,7 +1106,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 206",
                             CourseName = "Comparative Cultures",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3710),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(740),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1116,7 +1116,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 207",
                             CourseName = "Ottoman History I",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3710),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(740),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1126,7 +1126,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 208",
                             CourseName = "Ottoman History II",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3710),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(740),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1136,7 +1136,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 211",
                             CourseName = "Introduction to Russian Culture",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3720),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(740),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1146,7 +1146,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 213",
                             CourseName = "History of Western Civilizations I",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3720),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(750),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1156,7 +1156,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 214",
                             CourseName = "History of Western Civilizations II",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3720),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(750),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1166,7 +1166,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 215",
                             CourseName = "Mythology",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3720),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(750),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1176,7 +1176,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 216",
                             CourseName = "Analysis of Folklore Texts",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3730),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(750),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1186,7 +1186,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 217",
                             CourseName = "Art History I",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3730),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(760),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1196,7 +1196,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 218",
                             CourseName = "Art History II",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3730),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(760),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1206,7 +1206,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 219",
                             CourseName = "Art History III",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3730),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(760),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1216,7 +1216,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 220",
                             CourseName = "Introduction to Japanese Culture",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3740),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(760),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1226,7 +1226,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 223",
                             CourseName = "Introduction to French Culture",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3740),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(770),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1236,7 +1236,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 226",
                             CourseName = "Textual Analysis of Contemporary Turkish Literature",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3740),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(770),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1246,7 +1246,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 227",
                             CourseName = "Turkish Language Reform",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3740),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(770),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1256,7 +1256,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 230",
                             CourseName = "Group Dynamics",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3750),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(770),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1266,7 +1266,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 231",
                             CourseName = "Sociology of Work",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3750),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(780),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1276,7 +1276,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 232",
                             CourseName = "Visual Communication Symbols in Art and Daily Life",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3750),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(780),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1286,7 +1286,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 233",
                             CourseName = "Visual Perception in Art",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3760),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(790),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1296,7 +1296,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 240",
                             CourseName = "Introduction to Spanish Culture",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3760),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(790),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1306,7 +1306,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 251",
                             CourseName = "Ottoman Turkish I",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3760),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(800),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1316,7 +1316,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 252",
                             CourseName = "Ottoman Turkish II",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3770),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(800),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1326,7 +1326,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 255",
                             CourseName = "Latin I",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3770),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(800),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1336,7 +1336,7 @@ namespace Persistence.Migrations
                             CourseCode = "HUM 256",
                             CourseName = "Latin II",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3770),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(800),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1346,7 +1346,7 @@ namespace Persistence.Migrations
                             CourseCode = "JAP 201",
                             CourseName = "Basic Japanese I",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3770),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(810),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1356,7 +1356,7 @@ namespace Persistence.Migrations
                             CourseCode = "JAP 202",
                             CourseName = "Basic Japanese II",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3780),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(810),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1366,7 +1366,7 @@ namespace Persistence.Migrations
                             CourseCode = "JAP 203",
                             CourseName = "Intermediate Japanese I",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3780),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(810),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1376,7 +1376,7 @@ namespace Persistence.Migrations
                             CourseCode = "MAN 203",
                             CourseName = "Project Management",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3780),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(810),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1386,7 +1386,7 @@ namespace Persistence.Migrations
                             CourseCode = "MAN 205",
                             CourseName = "Innovation Management",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3780),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(820),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1396,7 +1396,7 @@ namespace Persistence.Migrations
                             CourseCode = "MAN 206",
                             CourseName = "Businesses and Business Life",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3790),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(820),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1406,7 +1406,7 @@ namespace Persistence.Migrations
                             CourseCode = "MAN 210",
                             CourseName = "Corporate Communication and Management Skills",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3790),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(820),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1416,7 +1416,7 @@ namespace Persistence.Migrations
                             CourseCode = "MAN 211",
                             CourseName = "Communication and Management Skills for Engineers",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3790),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(820),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1426,7 +1426,7 @@ namespace Persistence.Migrations
                             CourseCode = "MAN 215",
                             CourseName = "Engineering Economy",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3790),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(830),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1436,7 +1436,7 @@ namespace Persistence.Migrations
                             CourseCode = "MAN 216",
                             CourseName = "Introduction to Marketing",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3800),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(830),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1446,7 +1446,7 @@ namespace Persistence.Migrations
                             CourseCode = "MAN 217",
                             CourseName = "Fundamentals of Management",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3800),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(830),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1456,7 +1456,7 @@ namespace Persistence.Migrations
                             CourseCode = "MAN 218",
                             CourseName = "Entrepreneurship",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3800),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(830),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1466,7 +1466,7 @@ namespace Persistence.Migrations
                             CourseCode = "MAN 220",
                             CourseName = "Leadership",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3810),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(840),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1476,7 +1476,7 @@ namespace Persistence.Migrations
                             CourseCode = "MAN 221",
                             CourseName = "Organizational and Personal Career Management",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3810),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(840),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1486,7 +1486,7 @@ namespace Persistence.Migrations
                             CourseCode = "MAN 230",
                             CourseName = "Law in Business Life",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3810),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(840),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1496,7 +1496,7 @@ namespace Persistence.Migrations
                             CourseCode = "MAN 231",
                             CourseName = "Intellectual and Industrial Property Law",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3810),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(840),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1506,7 +1506,7 @@ namespace Persistence.Migrations
                             CourseCode = "RUS 201",
                             CourseName = "Basic Russian I",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3820),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(840),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1516,7 +1516,7 @@ namespace Persistence.Migrations
                             CourseCode = "RUS 202",
                             CourseName = "Basic Russian II",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3820),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(850),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1526,7 +1526,7 @@ namespace Persistence.Migrations
                             CourseCode = "RUS 203",
                             CourseName = "Intermediate Russian I",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3820),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(850),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1536,7 +1536,7 @@ namespace Persistence.Migrations
                             CourseCode = "RUS 204",
                             CourseName = "Intermediate Russian II",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3820),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(850),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1546,7 +1546,7 @@ namespace Persistence.Migrations
                             CourseCode = "RUS 205",
                             CourseName = "Advanced Russian I",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3830),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(860),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1556,7 +1556,7 @@ namespace Persistence.Migrations
                             CourseCode = "RUS 206",
                             CourseName = "Advanced Russian II",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3830),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(860),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1566,7 +1566,7 @@ namespace Persistence.Migrations
                             CourseCode = "SPAN 203",
                             CourseName = "Intermediate Spanish I",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3830),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(860),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1576,7 +1576,7 @@ namespace Persistence.Migrations
                             CourseCode = "SPAN 204",
                             CourseName = "Intermediate Spanish II",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3830),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(860),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1586,7 +1586,7 @@ namespace Persistence.Migrations
                             CourseCode = "SPRT 201",
                             CourseName = "Tennis I",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3830),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(870),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1596,7 +1596,7 @@ namespace Persistence.Migrations
                             CourseCode = "SPRT 202",
                             CourseName = "Tennis II",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3840),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(870),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1606,7 +1606,7 @@ namespace Persistence.Migrations
                             CourseCode = "SPRT 203",
                             CourseName = "Badminton",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3840),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(870),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1616,7 +1616,7 @@ namespace Persistence.Migrations
                             CourseCode = "SPRT 204",
                             CourseName = "Basketball",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3840),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(870),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1626,7 +1626,7 @@ namespace Persistence.Migrations
                             CourseCode = "SPRT 206",
                             CourseName = "Table Tennis",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3850),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(880),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         },
@@ -1636,7 +1636,7 @@ namespace Persistence.Migrations
                             CourseCode = "SPRT 208",
                             CourseName = "Basic Fitness Techniques",
                             CourseType = 3,
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3850),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(880),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000020"),
                             Ects = 3
                         });
@@ -1744,140 +1744,140 @@ namespace Persistence.Migrations
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000001"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2710),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9760),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000001"),
                             Name = "Computer Engineering"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000002"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2720),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9760),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000001"),
                             Name = "Electrical-Electronics Engineering"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000003"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2720),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9770),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000001"),
                             Name = "Mechanical Engineering"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000004"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2720),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9770),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000001"),
                             Name = "Civil Engineering"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000005"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2720),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9770),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000001"),
                             Name = "Environmental Engineering"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000006"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2730),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9770),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000001"),
                             Name = "Chemical Engineering"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000007"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2730),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9770),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000001"),
                             Name = "Food Engineering"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000008"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2730),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9770),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000001"),
                             Name = "Materials Science and Engineering"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000009"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2730),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9780),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000001"),
                             Name = "Bioengineering"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000010"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2730),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9780),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000001"),
                             Name = "Energy Systems Engineering"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000011"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2740),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9780),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000001"),
                             Name = "Photonics"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000012"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2740),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9780),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000002"),
                             Name = "Physics"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000013"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2740),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9790),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000002"),
                             Name = "Chemistry"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000014"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2740),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9790),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000002"),
                             Name = "Mathematics"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000015"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2740),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9790),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000002"),
                             Name = "Molecular Biology and Genetics"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000016"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2750),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9790),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000003"),
                             Name = "Architecture"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000017"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2750),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9790),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000003"),
                             Name = "Urban and Regional Planning"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000018"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2750),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9790),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000003"),
                             Name = "Industrial Design"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000019"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2750),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9800),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000004"),
                             Name = "Foreign Languages"
                         },
                         new
                         {
                             Id = new Guid("20000000-0000-0000-0000-000000000020"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2760),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9800),
                             FacultyId = new Guid("10000000-0000-0000-0000-000000000005"),
                             Name = "General Culture Courses"
                         });
@@ -2012,31 +2012,31 @@ namespace Persistence.Migrations
                         new
                         {
                             Id = new Guid("10000000-0000-0000-0000-000000000001"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2630),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9680),
                             Name = "Faculty of Engineering"
                         },
                         new
                         {
                             Id = new Guid("10000000-0000-0000-0000-000000000002"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2670),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9720),
                             Name = "Faculty of Science"
                         },
                         new
                         {
                             Id = new Guid("10000000-0000-0000-0000-000000000003"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2670),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9720),
                             Name = "Faculty of Architecture"
                         },
                         new
                         {
                             Id = new Guid("10000000-0000-0000-0000-000000000004"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2670),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9720),
                             Name = "School of Foreign Languages"
                         },
                         new
                         {
                             Id = new Guid("10000000-0000-0000-0000-000000000005"),
-                            CreatedDate = new DateTime(2025, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(2680),
+                            CreatedDate = new DateTime(2025, 5, 20, 1, 7, 54, 765, DateTimeKind.Utc).AddTicks(9730),
                             Name = "Faculty of General Studies"
                         });
                 });
@@ -2961,7 +2961,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2020, 9, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3170),
+                            EnrollDate = new DateTime(2023, 3, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(220),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400001"
@@ -2972,7 +2972,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2024, 1, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3180),
+                            EnrollDate = new DateTime(2022, 4, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(240),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400002"
@@ -2983,7 +2983,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2023, 4, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3190),
+                            EnrollDate = new DateTime(2020, 6, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(240),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400003"
@@ -2994,7 +2994,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2023, 2, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3190),
+                            EnrollDate = new DateTime(2021, 3, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(250),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400004"
@@ -3005,7 +3005,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2021, 6, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3190),
+                            EnrollDate = new DateTime(2021, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(250),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400005"
@@ -3016,7 +3016,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2021, 2, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3190),
+                            EnrollDate = new DateTime(2020, 12, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(250),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400006"
@@ -3027,7 +3027,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2021, 4, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3200),
+                            EnrollDate = new DateTime(2022, 12, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(260),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400007"
@@ -3038,7 +3038,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2024, 2, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3200),
+                            EnrollDate = new DateTime(2020, 9, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(260),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400008"
@@ -3049,7 +3049,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2023, 8, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3200),
+                            EnrollDate = new DateTime(2023, 7, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(260),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400009"
@@ -3060,7 +3060,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2022, 11, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3200),
+                            EnrollDate = new DateTime(2024, 2, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(260),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400010"
@@ -3071,7 +3071,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2023, 6, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3200),
+                            EnrollDate = new DateTime(2022, 9, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(270),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400011"
@@ -3082,7 +3082,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2024, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3210),
+                            EnrollDate = new DateTime(2023, 11, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(270),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400012"
@@ -3093,7 +3093,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2020, 10, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3210),
+                            EnrollDate = new DateTime(2023, 6, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(270),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400013"
@@ -3104,7 +3104,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2021, 6, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3210),
+                            EnrollDate = new DateTime(2024, 4, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(270),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400014"
@@ -3115,7 +3115,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2024, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3210),
+                            EnrollDate = new DateTime(2020, 10, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(270),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400015"
@@ -3126,7 +3126,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2022, 4, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3210),
+                            EnrollDate = new DateTime(2022, 10, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(280),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400016"
@@ -3137,7 +3137,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2023, 9, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3220),
+                            EnrollDate = new DateTime(2024, 4, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(280),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400017"
@@ -3148,7 +3148,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2021, 5, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3220),
+                            EnrollDate = new DateTime(2020, 12, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(280),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400018"
@@ -3159,7 +3159,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2020, 12, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3220),
+                            EnrollDate = new DateTime(2021, 2, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(280),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400019"
@@ -3170,7 +3170,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2020, 12, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3220),
+                            EnrollDate = new DateTime(2023, 7, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(290),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400020"
@@ -3181,7 +3181,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2020, 7, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3230),
+                            EnrollDate = new DateTime(2021, 11, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(290),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400021"
@@ -3192,7 +3192,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2021, 7, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3230),
+                            EnrollDate = new DateTime(2021, 2, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(290),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400022"
@@ -3203,7 +3203,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2021, 11, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3230),
+                            EnrollDate = new DateTime(2024, 1, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(290),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400023"
@@ -3214,7 +3214,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2023, 10, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3230),
+                            EnrollDate = new DateTime(2023, 9, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(290),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400024"
@@ -3225,7 +3225,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2023, 12, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3230),
+                            EnrollDate = new DateTime(2020, 9, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(300),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400025"
@@ -3236,7 +3236,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2020, 7, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3240),
+                            EnrollDate = new DateTime(2022, 3, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(300),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400026"
@@ -3247,7 +3247,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2021, 2, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3240),
+                            EnrollDate = new DateTime(2022, 3, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(300),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400027"
@@ -3258,7 +3258,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2023, 7, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3240),
+                            EnrollDate = new DateTime(2021, 10, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(300),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400028"
@@ -3269,7 +3269,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2020, 11, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3240),
+                            EnrollDate = new DateTime(2020, 9, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(300),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400029"
@@ -3280,7 +3280,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2021, 6, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3250),
+                            EnrollDate = new DateTime(2021, 2, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(310),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400030"
@@ -3291,7 +3291,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2021, 10, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3250),
+                            EnrollDate = new DateTime(2021, 8, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(310),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400031"
@@ -3302,7 +3302,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2020, 12, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3250),
+                            EnrollDate = new DateTime(2021, 3, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(310),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400032"
@@ -3313,7 +3313,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2023, 4, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3250),
+                            EnrollDate = new DateTime(2022, 6, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(310),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400033"
@@ -3324,7 +3324,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2022, 2, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3260),
+                            EnrollDate = new DateTime(2021, 7, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(310),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400034"
@@ -3335,7 +3335,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2023, 11, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3260),
+                            EnrollDate = new DateTime(2021, 11, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(320),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400035"
@@ -3346,7 +3346,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2021, 7, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3260),
+                            EnrollDate = new DateTime(2022, 2, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(320),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400036"
@@ -3357,7 +3357,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2020, 9, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3260),
+                            EnrollDate = new DateTime(2022, 12, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(320),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400037"
@@ -3368,7 +3368,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2024, 1, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3260),
+                            EnrollDate = new DateTime(2023, 5, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(330),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400038"
@@ -3379,7 +3379,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000041"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2022, 12, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3270),
+                            EnrollDate = new DateTime(2022, 11, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(330),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400039"
@@ -3390,7 +3390,7 @@ namespace Persistence.Migrations
                             AssignedAdvisorUserId = new Guid("40000000-0000-0000-0000-000000000050"),
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
                             DepartmentId = new Guid("20000000-0000-0000-0000-000000000001"),
-                            EnrollDate = new DateTime(2022, 7, 19, 23, 25, 13, 39, DateTimeKind.Utc).AddTicks(3270),
+                            EnrollDate = new DateTime(2023, 3, 20, 1, 7, 54, 766, DateTimeKind.Utc).AddTicks(330),
                             GraduationStatus = 9,
                             ProgramName = "Undergraduate Program",
                             StudentNumber = "202400040"
@@ -3517,8 +3517,8 @@ namespace Persistence.Migrations
                             IsActive = true,
                             IsEmailVerified = false,
                             LastName = "Admin",
-                            PasswordHash = new byte[] { 43, 20, 251, 160, 236, 203, 84, 28, 4, 172, 112, 201, 229, 43, 10, 212, 36, 139, 38, 185, 30, 166, 153, 42, 232, 236, 247, 92, 250, 185, 139, 145, 127, 244, 189, 206, 221, 160, 100, 221, 30, 220, 187, 130, 179, 124, 29, 95, 110, 183, 104, 61, 120, 37, 3, 50, 161, 125, 18, 214, 124, 151, 167, 216 },
-                            PasswordSalt = new byte[] { 203, 69, 4, 240, 139, 13, 42, 224, 247, 110, 251, 156, 96, 219, 93, 184, 240, 112, 43, 207, 226, 155, 118, 103, 176, 166, 80, 150, 222, 100, 93, 226, 125, 177, 12, 20, 162, 246, 149, 184, 21, 60, 182, 181, 105, 163, 199, 148, 237, 152, 180, 166, 219, 201, 206, 66, 20, 137, 20, 51, 43, 5, 70, 207, 47, 245, 173, 145, 77, 33, 182, 197, 49, 52, 151, 82, 219, 228, 48, 194, 59, 57, 33, 182, 182, 116, 151, 218, 57, 110, 103, 212, 210, 83, 85, 232, 67, 89, 221, 237, 235, 142, 227, 225, 14, 57, 254, 100, 124, 217, 84, 208, 59, 210, 230, 126, 78, 239, 169, 37, 83, 41, 55, 132, 22, 91, 200, 166 },
+                            PasswordHash = new byte[] { 136, 186, 106, 177, 70, 145, 132, 157, 209, 109, 161, 205, 156, 178, 12, 86, 64, 175, 115, 193, 169, 181, 113, 126, 246, 159, 175, 186, 74, 62, 115, 216, 22, 60, 164, 212, 94, 131, 136, 206, 1, 72, 23, 175, 153, 252, 238, 107, 41, 178, 204, 139, 2, 5, 35, 42, 171, 208, 160, 43, 176, 34, 53, 39 },
+                            PasswordSalt = new byte[] { 76, 133, 52, 231, 58, 102, 178, 93, 250, 82, 139, 187, 44, 50, 216, 148, 91, 118, 36, 228, 227, 158, 149, 219, 145, 219, 150, 88, 152, 5, 165, 140, 27, 240, 104, 47, 233, 211, 143, 111, 225, 20, 186, 59, 12, 229, 49, 107, 142, 169, 181, 245, 68, 216, 74, 99, 6, 74, 71, 148, 181, 25, 90, 244, 32, 73, 129, 8, 125, 97, 67, 92, 125, 246, 227, 40, 20, 143, 93, 3, 67, 185, 247, 159, 154, 181, 126, 176, 0, 184, 78, 73, 226, 19, 53, 109, 142, 174, 30, 227, 132, 141, 70, 223, 52, 31, 253, 175, 93, 176, 32, 128, 63, 69, 85, 107, 213, 73, 118, 198, 112, 166, 154, 188, 3, 197, 21, 66 },
                             PhoneNumber = "1112223344",
                             UserName = "systemadmin"
                         },
@@ -3532,8 +3532,8 @@ namespace Persistence.Migrations
                             IsActive = true,
                             IsEmailVerified = false,
                             LastName = "User",
-                            PasswordHash = new byte[] { 199, 235, 255, 9, 30, 225, 246, 67, 66, 162, 155, 51, 165, 253, 104, 199, 159, 150, 212, 110, 110, 46, 128, 4, 183, 5, 165, 182, 119, 247, 166, 163, 128, 206, 81, 127, 79, 205, 62, 93, 247, 227, 42, 107, 13, 26, 112, 218, 226, 211, 44, 13, 126, 201, 124, 170, 198, 51, 77, 172, 150, 254, 124, 177 },
-                            PasswordSalt = new byte[] { 105, 124, 119, 131, 169, 225, 115, 220, 57, 214, 140, 14, 236, 103, 195, 248, 141, 132, 228, 51, 211, 15, 110, 75, 180, 1, 24, 205, 36, 143, 59, 222, 158, 112, 244, 66, 127, 219, 240, 146, 215, 67, 67, 3, 111, 110, 92, 144, 194, 201, 164, 120, 252, 181, 153, 126, 20, 192, 83, 56, 111, 48, 241, 187, 77, 155, 191, 21, 97, 51, 173, 94, 33, 24, 15, 170, 146, 214, 74, 192, 68, 148, 138, 162, 205, 11, 191, 159, 248, 203, 238, 46, 45, 131, 47, 34, 25, 61, 201, 30, 168, 153, 215, 0, 17, 1, 153, 223, 5, 148, 255, 96, 220, 184, 215, 195, 19, 56, 239, 251, 31, 165, 182, 246, 46, 119, 71, 65 },
+                            PasswordHash = new byte[] { 18, 136, 238, 28, 195, 242, 32, 237, 226, 176, 2, 48, 67, 6, 232, 6, 104, 246, 227, 82, 230, 157, 57, 46, 245, 4, 47, 242, 60, 69, 104, 97, 111, 231, 162, 245, 61, 36, 240, 87, 178, 225, 231, 181, 124, 203, 247, 63, 182, 165, 70, 49, 36, 185, 173, 196, 15, 88, 77, 185, 151, 149, 236, 135 },
+                            PasswordSalt = new byte[] { 255, 251, 89, 205, 38, 86, 64, 213, 223, 28, 53, 40, 140, 118, 213, 216, 213, 48, 46, 254, 245, 154, 40, 44, 130, 212, 12, 19, 46, 252, 235, 18, 41, 177, 94, 239, 189, 232, 5, 149, 171, 190, 180, 24, 175, 240, 207, 104, 33, 57, 251, 99, 20, 136, 155, 114, 17, 120, 145, 100, 41, 51, 96, 44, 175, 189, 30, 246, 203, 77, 180, 170, 216, 23, 184, 242, 244, 153, 28, 195, 131, 71, 171, 157, 108, 138, 44, 233, 112, 138, 159, 46, 153, 182, 210, 192, 208, 253, 77, 12, 97, 142, 246, 48, 167, 146, 130, 99, 45, 103, 45, 24, 97, 46, 145, 86, 148, 26, 13, 92, 191, 127, 212, 102, 25, 186, 179, 4 },
                             PhoneNumber = "2223334455",
                             UserName = "studentuser"
                         },
@@ -3547,8 +3547,8 @@ namespace Persistence.Migrations
                             IsActive = true,
                             IsEmailVerified = false,
                             LastName = "Staff",
-                            PasswordHash = new byte[] { 226, 55, 138, 21, 52, 17, 16, 227, 147, 45, 101, 5, 56, 10, 154, 240, 116, 199, 123, 107, 155, 179, 153, 89, 73, 204, 18, 239, 156, 245, 136, 99, 186, 121, 74, 126, 98, 83, 111, 116, 149, 86, 127, 211, 32, 7, 87, 29, 91, 228, 201, 69, 224, 1, 66, 191, 155, 8, 217, 147, 95, 104, 56, 175 },
-                            PasswordSalt = new byte[] { 35, 40, 216, 224, 180, 244, 1, 62, 6, 245, 183, 210, 25, 155, 103, 68, 12, 87, 174, 165, 84, 93, 234, 5, 10, 28, 56, 206, 204, 242, 102, 176, 97, 109, 15, 141, 221, 116, 249, 159, 134, 134, 12, 82, 151, 208, 66, 107, 191, 233, 130, 21, 91, 217, 78, 230, 240, 160, 35, 94, 135, 213, 52, 23, 64, 186, 68, 92, 147, 8, 49, 200, 159, 124, 132, 54, 251, 214, 32, 54, 237, 243, 205, 60, 190, 250, 86, 55, 224, 9, 197, 245, 195, 99, 240, 102, 59, 3, 89, 130, 24, 167, 163, 6, 7, 57, 244, 57, 59, 91, 124, 22, 40, 180, 222, 250, 55, 158, 242, 96, 89, 111, 191, 218, 241, 151, 82, 15 },
+                            PasswordHash = new byte[] { 243, 210, 114, 148, 192, 71, 191, 85, 118, 58, 252, 120, 47, 215, 193, 36, 52, 74, 181, 17, 17, 171, 28, 194, 125, 246, 33, 229, 208, 153, 50, 14, 28, 179, 158, 105, 83, 75, 227, 75, 84, 163, 152, 55, 5, 160, 46, 182, 96, 254, 151, 66, 183, 106, 161, 181, 148, 230, 147, 178, 194, 103, 50, 131 },
+                            PasswordSalt = new byte[] { 110, 113, 202, 2, 113, 52, 138, 41, 130, 178, 203, 161, 248, 198, 179, 25, 213, 100, 10, 120, 133, 72, 50, 48, 183, 151, 223, 58, 83, 53, 31, 178, 179, 105, 18, 238, 160, 155, 103, 2, 147, 136, 63, 0, 133, 129, 130, 236, 152, 232, 58, 46, 51, 97, 196, 101, 95, 48, 10, 97, 85, 12, 226, 152, 84, 222, 137, 247, 199, 115, 220, 115, 122, 81, 223, 17, 198, 79, 235, 75, 233, 71, 247, 183, 140, 52, 130, 134, 175, 53, 110, 211, 76, 181, 212, 97, 97, 205, 190, 53, 39, 229, 235, 29, 17, 131, 33, 247, 72, 36, 158, 242, 124, 19, 38, 181, 21, 34, 42, 135, 37, 76, 153, 142, 71, 74, 43, 74 },
                             PhoneNumber = "3334445566",
                             UserName = "studentaffairs"
                         },
@@ -3562,8 +3562,8 @@ namespace Persistence.Migrations
                             IsActive = true,
                             IsEmailVerified = false,
                             LastName = "User",
-                            PasswordHash = new byte[] { 61, 13, 224, 76, 93, 83, 163, 84, 255, 254, 239, 184, 160, 132, 44, 127, 142, 85, 16, 179, 179, 111, 105, 204, 45, 168, 87, 253, 69, 2, 22, 168, 128, 202, 47, 130, 244, 104, 18, 1, 135, 131, 42, 191, 255, 105, 155, 116, 209, 236, 198, 48, 175, 166, 35, 145, 12, 207, 251, 5, 87, 250, 108, 166 },
-                            PasswordSalt = new byte[] { 255, 168, 35, 170, 187, 52, 122, 192, 127, 122, 16, 157, 27, 159, 87, 141, 83, 40, 142, 61, 119, 195, 71, 75, 197, 17, 92, 99, 134, 122, 205, 234, 114, 83, 61, 224, 214, 111, 54, 208, 84, 142, 218, 229, 11, 150, 21, 65, 47, 95, 71, 110, 76, 187, 139, 38, 152, 38, 109, 154, 227, 118, 23, 187, 254, 44, 184, 156, 34, 132, 18, 22, 27, 117, 208, 172, 121, 1, 110, 109, 93, 37, 146, 207, 40, 204, 27, 90, 139, 114, 231, 228, 52, 78, 86, 204, 187, 89, 93, 225, 100, 235, 8, 27, 104, 84, 54, 144, 127, 109, 140, 23, 81, 150, 212, 132, 16, 45, 203, 119, 128, 131, 243, 239, 3, 243, 136, 38 },
+                            PasswordHash = new byte[] { 215, 173, 110, 12, 143, 187, 97, 118, 94, 92, 206, 77, 237, 47, 184, 212, 182, 189, 199, 248, 168, 107, 66, 141, 227, 36, 128, 236, 60, 120, 116, 3, 3, 169, 7, 117, 20, 35, 78, 54, 51, 242, 63, 18, 94, 43, 198, 20, 9, 11, 162, 207, 84, 107, 225, 179, 197, 213, 171, 167, 94, 99, 105, 240 },
+                            PasswordSalt = new byte[] { 193, 17, 255, 64, 6, 65, 212, 38, 164, 134, 209, 88, 128, 136, 0, 49, 195, 187, 104, 13, 32, 211, 74, 26, 224, 50, 223, 29, 76, 182, 222, 27, 119, 220, 20, 114, 219, 187, 199, 43, 26, 97, 192, 200, 139, 138, 211, 160, 156, 121, 87, 228, 255, 158, 182, 204, 89, 151, 227, 30, 127, 134, 210, 18, 141, 138, 163, 53, 79, 231, 65, 209, 250, 155, 183, 245, 133, 16, 212, 27, 76, 22, 3, 87, 19, 86, 221, 246, 131, 58, 102, 237, 203, 245, 28, 109, 46, 211, 6, 93, 170, 25, 154, 184, 236, 41, 216, 28, 147, 199, 232, 251, 169, 41, 213, 153, 170, 79, 212, 157, 126, 143, 81, 192, 30, 123, 197, 230 },
                             PhoneNumber = "4445556677",
                             UserName = "advisoruser"
                         },
@@ -3577,8 +3577,8 @@ namespace Persistence.Migrations
                             IsActive = true,
                             IsEmailVerified = false,
                             LastName = "Secretary",
-                            PasswordHash = new byte[] { 77, 196, 240, 73, 252, 43, 210, 183, 184, 135, 90, 188, 235, 249, 195, 185, 190, 172, 185, 190, 200, 165, 184, 0, 175, 92, 151, 248, 31, 25, 174, 57, 167, 186, 67, 183, 244, 241, 142, 66, 129, 15, 168, 49, 49, 83, 223, 69, 176, 177, 207, 206, 47, 152, 150, 87, 121, 235, 216, 139, 219, 216, 245, 172 },
-                            PasswordSalt = new byte[] { 162, 210, 143, 159, 215, 146, 70, 55, 55, 93, 55, 219, 236, 124, 204, 208, 93, 134, 165, 233, 58, 135, 232, 18, 1, 100, 23, 93, 1, 29, 100, 190, 9, 110, 230, 79, 61, 215, 182, 67, 33, 34, 28, 190, 229, 176, 84, 118, 100, 2, 13, 45, 39, 47, 71, 108, 108, 83, 180, 137, 59, 5, 127, 48, 55, 82, 238, 75, 42, 14, 220, 82, 0, 211, 229, 236, 127, 34, 69, 250, 70, 177, 243, 234, 219, 167, 132, 198, 92, 131, 186, 191, 195, 225, 160, 100, 213, 10, 32, 29, 24, 242, 185, 216, 110, 141, 75, 196, 72, 196, 160, 177, 98, 74, 122, 174, 10, 99, 53, 138, 35, 255, 55, 70, 143, 244, 121, 155 },
+                            PasswordHash = new byte[] { 95, 22, 3, 207, 195, 103, 13, 79, 188, 198, 43, 139, 173, 19, 8, 48, 198, 252, 90, 214, 72, 243, 150, 55, 146, 203, 97, 89, 117, 229, 6, 68, 223, 182, 138, 170, 103, 190, 183, 84, 186, 123, 86, 98, 103, 203, 83, 55, 193, 164, 212, 114, 208, 241, 55, 131, 243, 220, 6, 46, 122, 125, 77, 171 },
+                            PasswordSalt = new byte[] { 128, 62, 134, 219, 139, 8, 20, 129, 10, 245, 38, 1, 21, 237, 202, 62, 54, 35, 89, 0, 159, 122, 0, 114, 49, 99, 211, 113, 11, 216, 57, 186, 212, 0, 7, 177, 81, 252, 222, 82, 239, 175, 19, 141, 54, 65, 156, 98, 92, 249, 254, 185, 111, 136, 216, 233, 70, 49, 143, 26, 126, 225, 66, 28, 9, 180, 67, 39, 227, 59, 50, 36, 239, 232, 65, 144, 229, 31, 70, 180, 18, 22, 204, 77, 175, 212, 232, 133, 23, 146, 190, 159, 77, 190, 194, 37, 212, 239, 155, 247, 199, 157, 196, 177, 62, 157, 249, 33, 123, 55, 148, 193, 178, 34, 166, 236, 93, 17, 115, 97, 94, 187, 173, 50, 145, 213, 160, 220 },
                             PhoneNumber = "5556667788",
                             UserName = "deptsecretary"
                         },
@@ -3592,8 +3592,8 @@ namespace Persistence.Migrations
                             IsActive = true,
                             IsEmailVerified = false,
                             LastName = "Staff",
-                            PasswordHash = new byte[] { 45, 52, 133, 188, 204, 98, 213, 125, 168, 188, 113, 153, 12, 221, 3, 200, 183, 91, 226, 134, 184, 93, 143, 29, 116, 9, 195, 93, 163, 127, 62, 164, 124, 200, 31, 108, 101, 190, 187, 211, 115, 72, 248, 80, 175, 221, 226, 188, 220, 89, 76, 198, 172, 141, 114, 30, 189, 128, 152, 201, 248, 180, 33, 101 },
-                            PasswordSalt = new byte[] { 52, 183, 43, 242, 24, 20, 231, 57, 132, 245, 51, 121, 60, 207, 44, 93, 178, 161, 86, 245, 193, 253, 144, 0, 94, 193, 230, 0, 108, 223, 90, 97, 16, 131, 151, 17, 132, 112, 79, 58, 190, 129, 103, 81, 30, 161, 32, 37, 30, 210, 132, 192, 242, 173, 74, 198, 202, 124, 96, 14, 2, 73, 133, 44, 58, 193, 7, 94, 229, 117, 152, 31, 63, 214, 120, 106, 246, 49, 112, 22, 230, 239, 225, 27, 132, 31, 219, 159, 167, 230, 164, 190, 93, 172, 142, 138, 144, 85, 80, 48, 135, 57, 70, 178, 129, 230, 206, 79, 124, 196, 244, 88, 28, 43, 0, 25, 240, 214, 195, 15, 12, 231, 162, 65, 226, 61, 233, 26 },
+                            PasswordHash = new byte[] { 196, 122, 182, 104, 170, 196, 76, 25, 192, 211, 188, 139, 37, 30, 57, 153, 33, 34, 209, 47, 166, 29, 44, 136, 180, 149, 200, 39, 81, 107, 243, 167, 152, 16, 84, 178, 92, 73, 77, 174, 19, 132, 225, 165, 181, 204, 47, 179, 245, 168, 196, 15, 202, 121, 171, 17, 65, 137, 80, 83, 29, 199, 176, 85 },
+                            PasswordSalt = new byte[] { 149, 150, 49, 101, 59, 143, 92, 184, 57, 177, 28, 245, 97, 176, 56, 172, 24, 217, 149, 139, 10, 209, 83, 125, 145, 251, 195, 220, 71, 214, 19, 244, 136, 125, 6, 17, 125, 91, 71, 54, 22, 181, 116, 119, 254, 114, 160, 76, 71, 178, 167, 208, 119, 190, 248, 161, 168, 243, 40, 51, 16, 137, 179, 131, 18, 250, 100, 53, 165, 168, 72, 250, 11, 81, 89, 75, 68, 24, 254, 209, 13, 183, 235, 3, 193, 187, 195, 131, 223, 25, 229, 133, 19, 108, 36, 73, 241, 135, 219, 217, 232, 33, 158, 207, 43, 63, 109, 56, 90, 68, 195, 197, 154, 159, 177, 176, 38, 203, 232, 125, 109, 210, 159, 89, 191, 25, 46, 43 },
                             PhoneNumber = "6667778899",
                             UserName = "deansoffice"
                         },
@@ -3602,252 +3602,252 @@ namespace Persistence.Migrations
                             Id = new Guid("40000000-0000-0000-0000-000000000001"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "deniz.yilmaz.s1@std.iyte.edu.tr",
+                            Email = "deniz.yildiz.s1@std.iyte.edu.tr",
                             FirstName = "Deniz",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Yılmaz",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "deniz.yilmaz.s1"
+                            LastName = "Yıldız",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "deniz.yildiz.s1"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000002"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "huseyin.demir.s2@std.iyte.edu.tr",
-                            FirstName = "Hüseyin",
+                            Email = "burak.yilmaz.s2@std.iyte.edu.tr",
+                            FirstName = "Burak",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Demir",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "huseyin.demir.s2"
+                            LastName = "Yılmaz",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "burak.yilmaz.s2"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000003"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "merve.dogan.s3@std.iyte.edu.tr",
-                            FirstName = "Merve",
+                            Email = "deniz.yilmaz.s3@std.iyte.edu.tr",
+                            FirstName = "Deniz",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Doğan",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "merve.dogan.s3"
+                            LastName = "Yılmaz",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "deniz.yilmaz.s3"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000004"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "huseyin.kaya.s4@std.iyte.edu.tr",
-                            FirstName = "Hüseyin",
+                            Email = "can.yilmaz.s4@std.iyte.edu.tr",
+                            FirstName = "Can",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Kaya",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "huseyin.kaya.s4"
+                            LastName = "Yılmaz",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "can.yilmaz.s4"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000005"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "hatice.yildiz.s5@std.iyte.edu.tr",
-                            FirstName = "Hatice",
+                            Email = "gamze.sahin.s5@std.iyte.edu.tr",
+                            FirstName = "Gamze",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Yıldız",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "hatice.yildiz.s5"
+                            LastName = "Şahin",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "gamze.sahin.s5"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000006"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "huseyin.ozturk.s6@std.iyte.edu.tr",
-                            FirstName = "Hüseyin",
+                            Email = "mustafa.sahin.s6@std.iyte.edu.tr",
+                            FirstName = "Mustafa",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Öztürk",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "huseyin.ozturk.s6"
+                            LastName = "Şahin",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "mustafa.sahin.s6"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000007"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "hatice.sahin.s7@std.iyte.edu.tr",
-                            FirstName = "Hatice",
+                            Email = "elif.sahin.s7@std.iyte.edu.tr",
+                            FirstName = "Elif",
                             IsActive = false,
                             IsEmailVerified = false,
                             LastName = "Şahin",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "hatice.sahin.s7"
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "elif.sahin.s7"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000008"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "ali.kaya.s8@std.iyte.edu.tr",
-                            FirstName = "Ali",
+                            Email = "mehmet.ozturk.s8@std.iyte.edu.tr",
+                            FirstName = "Mehmet",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Kaya",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "ali.kaya.s8"
+                            LastName = "Öztürk",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "mehmet.ozturk.s8"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000009"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "merve.yilmaz.s9@std.iyte.edu.tr",
-                            FirstName = "Merve",
+                            Email = "zeynep.demir.s9@std.iyte.edu.tr",
+                            FirstName = "Zeynep",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Yılmaz",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "merve.yilmaz.s9"
+                            LastName = "Demir",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "zeynep.demir.s9"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000010"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "ali.yilmaz.s10@std.iyte.edu.tr",
-                            FirstName = "Ali",
+                            Email = "mehmet.yilmaz.s10@std.iyte.edu.tr",
+                            FirstName = "Mehmet",
                             IsActive = false,
                             IsEmailVerified = false,
                             LastName = "Yılmaz",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "ali.yilmaz.s10"
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "mehmet.yilmaz.s10"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000011"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "hatice.demir.s11@std.iyte.edu.tr",
-                            FirstName = "Hatice",
+                            Email = "ayse.ozturk.s11@std.iyte.edu.tr",
+                            FirstName = "Ayşe",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Demir",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "hatice.demir.s11"
+                            LastName = "Öztürk",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "ayse.ozturk.s11"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000012"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "mustafa.arslan.s12@std.iyte.edu.tr",
-                            FirstName = "Mustafa",
+                            Email = "can.arslan.s12@std.iyte.edu.tr",
+                            FirstName = "Can",
                             IsActive = false,
                             IsEmailVerified = false,
                             LastName = "Arslan",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "mustafa.arslan.s12"
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "can.arslan.s12"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000013"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "ayse.yildiz.s13@std.iyte.edu.tr",
+                            Email = "ayse.sahin.s13@std.iyte.edu.tr",
                             FirstName = "Ayşe",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Yıldız",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "ayse.yildiz.s13"
+                            LastName = "Şahin",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "ayse.sahin.s13"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000014"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "murat.arslan.s14@std.iyte.edu.tr",
-                            FirstName = "Murat",
+                            Email = "ahmet.kaya.s14@std.iyte.edu.tr",
+                            FirstName = "Ahmet",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Arslan",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "murat.arslan.s14"
+                            LastName = "Kaya",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "ahmet.kaya.s14"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000015"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "merve.celik.s15@std.iyte.edu.tr",
-                            FirstName = "Merve",
+                            Email = "gamze.kaya.s15@std.iyte.edu.tr",
+                            FirstName = "Gamze",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Çelik",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "merve.celik.s15"
+                            LastName = "Kaya",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "gamze.kaya.s15"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000016"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "mehmet.kaya.s16@std.iyte.edu.tr",
-                            FirstName = "Mehmet",
+                            Email = "ahmet.yildiz.s16@std.iyte.edu.tr",
+                            FirstName = "Ahmet",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Kaya",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "mehmet.kaya.s16"
+                            LastName = "Yıldız",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "ahmet.yildiz.s16"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000017"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "hatice.yildiz.s17@std.iyte.edu.tr",
-                            FirstName = "Hatice",
+                            Email = "gamze.dogan.s17@std.iyte.edu.tr",
+                            FirstName = "Gamze",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Yıldız",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "hatice.yildiz.s17"
+                            LastName = "Doğan",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "gamze.dogan.s17"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000018"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "emre.demir.s18@std.iyte.edu.tr",
-                            FirstName = "Emre",
+                            Email = "murat.arslan.s18@std.iyte.edu.tr",
+                            FirstName = "Murat",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Demir",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "emre.demir.s18"
+                            LastName = "Arslan",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "murat.arslan.s18"
                         },
                         new
                         {
@@ -3859,8 +3859,8 @@ namespace Persistence.Migrations
                             IsActive = false,
                             IsEmailVerified = false,
                             LastName = "Yıldız",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
                             UserName = "selin.yildiz.s19"
                         },
                         new
@@ -3868,294 +3868,294 @@ namespace Persistence.Migrations
                             Id = new Guid("40000000-0000-0000-0000-000000000020"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "emre.sahin.s20@std.iyte.edu.tr",
-                            FirstName = "Emre",
+                            Email = "burak.kaya.s20@std.iyte.edu.tr",
+                            FirstName = "Burak",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Şahin",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "emre.sahin.s20"
+                            LastName = "Kaya",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "burak.kaya.s20"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000021"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "ebru.kaya.s21@std.iyte.edu.tr",
-                            FirstName = "Ebru",
+                            Email = "fatma.sahin.s21@std.iyte.edu.tr",
+                            FirstName = "Fatma",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Kaya",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "ebru.kaya.s21"
+                            LastName = "Şahin",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "fatma.sahin.s21"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000022"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "mehmet.aydin.s22@std.iyte.edu.tr",
-                            FirstName = "Mehmet",
+                            Email = "can.yilmaz.s22@std.iyte.edu.tr",
+                            FirstName = "Can",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Aydın",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "mehmet.aydin.s22"
+                            LastName = "Yılmaz",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "can.yilmaz.s22"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000023"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "hatice.sahin.s23@std.iyte.edu.tr",
-                            FirstName = "Hatice",
+                            Email = "merve.yildiz.s23@std.iyte.edu.tr",
+                            FirstName = "Merve",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Şahin",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "hatice.sahin.s23"
+                            LastName = "Yıldız",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "merve.yildiz.s23"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000024"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "veli.kaya.s24@std.iyte.edu.tr",
-                            FirstName = "Veli",
+                            Email = "burak.arslan.s24@std.iyte.edu.tr",
+                            FirstName = "Burak",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Kaya",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "veli.kaya.s24"
+                            LastName = "Arslan",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "burak.arslan.s24"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000025"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "merve.dogan.s25@std.iyte.edu.tr",
-                            FirstName = "Merve",
+                            Email = "hatice.yilmaz.s25@std.iyte.edu.tr",
+                            FirstName = "Hatice",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Doğan",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "merve.dogan.s25"
+                            LastName = "Yılmaz",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "hatice.yilmaz.s25"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000026"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "ahmet.arslan.s26@std.iyte.edu.tr",
-                            FirstName = "Ahmet",
+                            Email = "huseyin.dogan.s26@std.iyte.edu.tr",
+                            FirstName = "Hüseyin",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Arslan",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "ahmet.arslan.s26"
+                            LastName = "Doğan",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "huseyin.dogan.s26"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000027"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "selin.ozturk.s27@std.iyte.edu.tr",
-                            FirstName = "Selin",
+                            Email = "ebru.kaya.s27@std.iyte.edu.tr",
+                            FirstName = "Ebru",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Öztürk",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "selin.ozturk.s27"
+                            LastName = "Kaya",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "ebru.kaya.s27"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000028"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "can.celik.s28@std.iyte.edu.tr",
-                            FirstName = "Can",
+                            Email = "ahmet.arslan.s28@std.iyte.edu.tr",
+                            FirstName = "Ahmet",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Çelik",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "can.celik.s28"
+                            LastName = "Arslan",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "ahmet.arslan.s28"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000029"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "gamze.yildiz.s29@std.iyte.edu.tr",
-                            FirstName = "Gamze",
+                            Email = "ebru.arslan.s29@std.iyte.edu.tr",
+                            FirstName = "Ebru",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Yıldız",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "gamze.yildiz.s29"
+                            LastName = "Arslan",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "ebru.arslan.s29"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000030"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "murat.demir.s30@std.iyte.edu.tr",
-                            FirstName = "Murat",
+                            Email = "ahmet.ozturk.s30@std.iyte.edu.tr",
+                            FirstName = "Ahmet",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Demir",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "murat.demir.s30"
+                            LastName = "Öztürk",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "ahmet.ozturk.s30"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000031"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "elif.ozturk.s31@std.iyte.edu.tr",
-                            FirstName = "Elif",
+                            Email = "selin.dogan.s31@std.iyte.edu.tr",
+                            FirstName = "Selin",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Öztürk",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "elif.ozturk.s31"
+                            LastName = "Doğan",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "selin.dogan.s31"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000032"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "mustafa.celik.s32@std.iyte.edu.tr",
-                            FirstName = "Mustafa",
+                            Email = "veli.demir.s32@std.iyte.edu.tr",
+                            FirstName = "Veli",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Çelik",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "mustafa.celik.s32"
+                            LastName = "Demir",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "veli.demir.s32"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000033"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "gamze.ozturk.s33@std.iyte.edu.tr",
-                            FirstName = "Gamze",
+                            Email = "deniz.arslan.s33@std.iyte.edu.tr",
+                            FirstName = "Deniz",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Öztürk",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "gamze.ozturk.s33"
+                            LastName = "Arslan",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "deniz.arslan.s33"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000034"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "ali.demir.s34@std.iyte.edu.tr",
+                            Email = "ali.aydin.s34@std.iyte.edu.tr",
                             FirstName = "Ali",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Demir",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "ali.demir.s34"
+                            LastName = "Aydın",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "ali.aydin.s34"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000035"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "hatice.celik.s35@std.iyte.edu.tr",
-                            FirstName = "Hatice",
+                            Email = "ebru.yilmaz.s35@std.iyte.edu.tr",
+                            FirstName = "Ebru",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Çelik",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "hatice.celik.s35"
+                            LastName = "Yılmaz",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "ebru.yilmaz.s35"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000036"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "ali.celik.s36@std.iyte.edu.tr",
-                            FirstName = "Ali",
+                            Email = "mustafa.dogan.s36@std.iyte.edu.tr",
+                            FirstName = "Mustafa",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Çelik",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "ali.celik.s36"
+                            LastName = "Doğan",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "mustafa.dogan.s36"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000037"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "merve.celik.s37@std.iyte.edu.tr",
-                            FirstName = "Merve",
+                            Email = "fatma.arslan.s37@std.iyte.edu.tr",
+                            FirstName = "Fatma",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Çelik",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "merve.celik.s37"
+                            LastName = "Arslan",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "fatma.arslan.s37"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000038"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "emre.aydin.s38@std.iyte.edu.tr",
-                            FirstName = "Emre",
+                            Email = "veli.ozturk.s38@std.iyte.edu.tr",
+                            FirstName = "Veli",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Aydın",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "emre.aydin.s38"
+                            LastName = "Öztürk",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "veli.ozturk.s38"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000039"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "fatma.arslan.s39@std.iyte.edu.tr",
-                            FirstName = "Fatma",
+                            Email = "ebru.ozturk.s39@std.iyte.edu.tr",
+                            FirstName = "Ebru",
                             IsActive = false,
                             IsEmailVerified = false,
-                            LastName = "Arslan",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "fatma.arslan.s39"
+                            LastName = "Öztürk",
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "ebru.ozturk.s39"
                         },
                         new
                         {
                             Id = new Guid("40000000-0000-0000-0000-000000000040"),
                             AuthenticatorType = 0,
                             CreatedDate = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc),
-                            Email = "veli.yildiz.s40@std.iyte.edu.tr",
-                            FirstName = "Veli",
+                            Email = "mehmet.yildiz.s40@std.iyte.edu.tr",
+                            FirstName = "Mehmet",
                             IsActive = false,
                             IsEmailVerified = false,
                             LastName = "Yıldız",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
-                            UserName = "veli.yildiz.s40"
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
+                            UserName = "mehmet.yildiz.s40"
                         },
                         new
                         {
@@ -4167,8 +4167,8 @@ namespace Persistence.Migrations
                             IsActive = true,
                             IsEmailVerified = true,
                             LastName = "Yılmaz",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
                             UserName = "ayse.yilmaz.p1"
                         },
                         new
@@ -4181,8 +4181,8 @@ namespace Persistence.Migrations
                             IsActive = true,
                             IsEmailVerified = true,
                             LastName = "Kaya",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
                             UserName = "mehmet.kaya.p2"
                         },
                         new
@@ -4195,8 +4195,8 @@ namespace Persistence.Migrations
                             IsActive = true,
                             IsEmailVerified = true,
                             LastName = "Demir",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
                             UserName = "zeynep.demir.p3"
                         },
                         new
@@ -4209,8 +4209,8 @@ namespace Persistence.Migrations
                             IsActive = true,
                             IsEmailVerified = true,
                             LastName = "Çelik",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
                             UserName = "ahmet.celik.p4"
                         },
                         new
@@ -4223,8 +4223,8 @@ namespace Persistence.Migrations
                             IsActive = true,
                             IsEmailVerified = true,
                             LastName = "Şahin",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
                             UserName = "mustafa.sahin.p5"
                         },
                         new
@@ -4237,8 +4237,8 @@ namespace Persistence.Migrations
                             IsActive = true,
                             IsEmailVerified = true,
                             LastName = "Öztürk",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
                             UserName = "fatma.ozturk.p6"
                         },
                         new
@@ -4251,8 +4251,8 @@ namespace Persistence.Migrations
                             IsActive = true,
                             IsEmailVerified = true,
                             LastName = "Yıldız",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
                             UserName = "ali.yildiz.p7"
                         },
                         new
@@ -4265,8 +4265,8 @@ namespace Persistence.Migrations
                             IsActive = true,
                             IsEmailVerified = true,
                             LastName = "Aydın",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
                             UserName = "huseyin.aydin.p8"
                         },
                         new
@@ -4279,8 +4279,8 @@ namespace Persistence.Migrations
                             IsActive = true,
                             IsEmailVerified = true,
                             LastName = "Arslan",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
                             UserName = "elif.arslan.p9"
                         },
                         new
@@ -4293,8 +4293,8 @@ namespace Persistence.Migrations
                             IsActive = true,
                             IsEmailVerified = true,
                             LastName = "Doğan",
-                            PasswordHash = new byte[] { 136, 200, 208, 34, 27, 98, 120, 207, 137, 231, 180, 88, 76, 107, 74, 134, 96, 238, 91, 209, 180, 212, 186, 15, 32, 106, 10, 63, 83, 77, 145, 93, 69, 211, 117, 78, 76, 178, 253, 236, 212, 172, 217, 50, 89, 243, 117, 129, 55, 177, 225, 113, 128, 135, 53, 30, 98, 62, 184, 140, 113, 246, 245, 9, 246, 26, 170, 201, 253, 62, 105, 193, 2, 63, 74, 249, 108, 196, 187, 131, 226, 203, 164, 161, 246, 255, 150, 42, 209, 157, 137, 227, 97, 120, 139, 9, 6, 145, 79, 98, 156, 22, 104, 88, 50, 78, 246, 242, 160, 75, 204, 252, 252, 235, 98, 104, 156, 50, 110, 102, 179, 99, 48, 244, 133, 138, 230, 232 },
-                            PasswordSalt = new byte[] { 79, 123, 167, 226, 176, 119, 29, 119, 218, 38, 228, 252, 240, 15, 123, 106, 254, 154, 178, 204, 166, 136, 205, 253, 75, 215, 15, 220, 143, 13, 159, 150, 241, 53, 234, 209, 150, 67, 163, 119, 216, 134, 191, 134, 215, 128, 94, 186, 91, 87, 79, 51, 19, 89, 178, 222, 185, 230, 69, 228, 192, 185, 86, 252 },
+                            PasswordHash = new byte[] { 161, 97, 252, 217, 237, 233, 217, 241, 64, 57, 71, 62, 37, 23, 194, 22, 229, 131, 225, 58, 170, 243, 45, 43, 186, 204, 250, 250, 54, 251, 145, 235, 242, 83, 126, 108, 252, 44, 105, 172, 17, 160, 164, 246, 224, 224, 213, 146, 112, 22, 157, 99, 212, 39, 226, 25, 158, 8, 238, 113, 116, 70, 87, 28, 208, 180, 90, 41, 121, 66, 84, 204, 233, 175, 131, 100, 243, 55, 152, 9, 247, 206, 81, 182, 231, 255, 165, 56, 38, 26, 101, 76, 137, 120, 150, 158, 122, 157, 151, 233, 64, 114, 119, 14, 63, 133, 235, 220, 148, 159, 68, 163, 43, 225, 13, 233, 23, 72, 251, 226, 24, 81, 94, 107, 117, 205, 172, 40 },
+                            PasswordSalt = new byte[] { 238, 253, 149, 95, 122, 60, 125, 3, 53, 4, 90, 155, 34, 254, 92, 159, 32, 36, 53, 153, 251, 227, 80, 187, 42, 69, 228, 68, 109, 126, 148, 67, 61, 91, 236, 131, 103, 164, 241, 8, 218, 181, 27, 150, 130, 89, 111, 240, 63, 252, 61, 229, 28, 191, 250, 217, 102, 80, 168, 93, 254, 110, 148, 66 },
                             UserName = "veli.dogan.p10"
                         });
                 });
@@ -4379,351 +4379,351 @@ namespace Persistence.Migrations
                         },
                         new
                         {
-                            Id = new Guid("43079861-4acb-4bf9-bac1-98b67a96bd98"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1260),
+                            Id = new Guid("f3b0a4e9-7d63-4e47-9126-e110a63c8452"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8330),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000001")
                         },
                         new
                         {
-                            Id = new Guid("6c88a122-439f-473b-92ea-dda9a3ca2b0c"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1270),
+                            Id = new Guid("507f6bfa-41c8-48bc-8077-f97f7c7693a8"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8340),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000002")
                         },
                         new
                         {
-                            Id = new Guid("a9d51763-4007-465b-b2a8-cd99a8c219f5"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1270),
+                            Id = new Guid("9895d1bb-843c-470b-9079-027dbe9117ef"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8340),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000003")
                         },
                         new
                         {
-                            Id = new Guid("0aef782a-212f-4880-9f7c-e394483a1891"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1280),
+                            Id = new Guid("84ce215c-a7eb-444b-aae5-f88799283415"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8350),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000004")
                         },
                         new
                         {
-                            Id = new Guid("4d97eaaa-ffd9-4f76-b1b3-8bb60385d3c3"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1280),
+                            Id = new Guid("8024852d-978a-4162-92aa-c9494e23810a"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8350),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000005")
                         },
                         new
                         {
-                            Id = new Guid("308e74c2-3a92-4a3d-ad99-b6a353bc3193"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1280),
+                            Id = new Guid("a96d6c73-e60f-425f-88f3-1ea63e546612"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8360),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000006")
                         },
                         new
                         {
-                            Id = new Guid("c49e4a6d-1f5d-4d09-abe6-f7090a6e8c0c"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1290),
+                            Id = new Guid("5af8227b-3d31-4550-a9ae-78a2f6de36c7"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8360),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000007")
                         },
                         new
                         {
-                            Id = new Guid("4b8f9331-36da-4daa-90fa-9bc70b6f3a13"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1290),
+                            Id = new Guid("170e462e-3985-4299-bced-d03398253873"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8360),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000008")
                         },
                         new
                         {
-                            Id = new Guid("e3a52061-57e6-487b-be12-e5d40d313cf1"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1300),
+                            Id = new Guid("beaf93e7-663b-4a5a-91cf-254bffc22ee4"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8370),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000009")
                         },
                         new
                         {
-                            Id = new Guid("89a675fe-baf0-458c-a7f3-971d8841f86b"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1300),
+                            Id = new Guid("dc2fc4cf-d7e1-4e26-9e22-782d324d8bb2"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8370),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000010")
                         },
                         new
                         {
-                            Id = new Guid("d02b19ce-21bd-414c-af6c-59ad4241f503"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1300),
+                            Id = new Guid("52862d72-b448-4f2c-8536-5c55cc30dfe4"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8380),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000011")
                         },
                         new
                         {
-                            Id = new Guid("b4afb151-4bcd-4860-894d-523a4caa65d7"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1310),
+                            Id = new Guid("d341b685-eb32-4000-b995-9e1d6ea91cfc"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8380),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000012")
                         },
                         new
                         {
-                            Id = new Guid("59cff48c-b703-4dbc-9210-8b1801baf76e"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1310),
+                            Id = new Guid("f306716d-4a2b-496c-abd0-22ea92abe2c3"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8380),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000013")
                         },
                         new
                         {
-                            Id = new Guid("c3c70585-9dba-468c-bebc-97021fd3e3ad"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1320),
+                            Id = new Guid("5a1f2dba-eb34-4618-a72b-8491b52be260"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8390),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000014")
                         },
                         new
                         {
-                            Id = new Guid("c827babd-a3a2-4f44-9b98-0526a1100d9c"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1320),
+                            Id = new Guid("f28d6590-33ad-44b0-abcc-7bb39929fb56"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8390),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000015")
                         },
                         new
                         {
-                            Id = new Guid("1371e713-1e37-44f9-86a9-35be0fe256a1"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1330),
+                            Id = new Guid("d108ad7d-32e4-4809-b00c-9815fec6eef5"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8400),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000016")
                         },
                         new
                         {
-                            Id = new Guid("483f4b01-6391-456d-975b-472d910e7d56"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1330),
+                            Id = new Guid("f2332c0d-da16-4b3d-b44e-5cfa9eca48d2"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8410),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000017")
                         },
                         new
                         {
-                            Id = new Guid("13df70f9-4a5a-495e-a9a2-c3cc429041b5"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1330),
+                            Id = new Guid("516e806d-a825-41a2-964b-7936033e55c8"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8410),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000018")
                         },
                         new
                         {
-                            Id = new Guid("77f4cc1f-ff26-4cfd-8ffe-6784e34c052f"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1340),
+                            Id = new Guid("2637708c-d903-4366-9d04-8aac73a76e75"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8410),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000019")
                         },
                         new
                         {
-                            Id = new Guid("35ce5818-f2b9-4538-b91c-6dca8033bf56"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1340),
+                            Id = new Guid("aa4bf9c0-3bad-4f1e-895b-e6cf1ca859a3"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8420),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000020")
                         },
                         new
                         {
-                            Id = new Guid("50b7f8c8-a66d-4e14-8ea6-fe89684e7f6a"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1350),
+                            Id = new Guid("a81f0530-1abc-4c15-ae6f-d25b5f9cd556"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8420),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000021")
                         },
                         new
                         {
-                            Id = new Guid("505fae94-5ab0-4034-bdc6-a53a1f5e9576"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1350),
+                            Id = new Guid("a779a150-000b-4f23-92c5-fc743ed5bfaf"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8430),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000022")
                         },
                         new
                         {
-                            Id = new Guid("47d31d97-81e3-4d67-b584-83c28497641c"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1350),
+                            Id = new Guid("653e902e-6622-491a-82d4-63405eb87d3b"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8430),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000023")
                         },
                         new
                         {
-                            Id = new Guid("2664ac79-a25d-436e-96ff-5f7677cf3f87"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1360),
+                            Id = new Guid("063965a6-6096-4c63-8fbf-3d390213c979"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8430),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000024")
                         },
                         new
                         {
-                            Id = new Guid("63a4f5ff-e02f-440d-9908-b0c8b7dcf78a"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1360),
+                            Id = new Guid("cd43eaf1-9da1-48fc-855c-6de480c0fd6f"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8440),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000025")
                         },
                         new
                         {
-                            Id = new Guid("efc08299-efd8-4593-baaf-b844435de7c6"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1370),
+                            Id = new Guid("4c1eba27-5930-480b-b177-d097d3683c6d"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8440),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000026")
                         },
                         new
                         {
-                            Id = new Guid("293bf890-19b9-41a3-8a2a-d4921ffe5b3e"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1370),
+                            Id = new Guid("2fa1a8be-b401-4480-9c50-2a1195c235b5"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8440),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000027")
                         },
                         new
                         {
-                            Id = new Guid("050d01d2-00e5-4709-b552-66fc316968ce"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1370),
+                            Id = new Guid("d423c6a0-74f0-4cbd-901c-2d5c69c7416b"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8450),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000028")
                         },
                         new
                         {
-                            Id = new Guid("d06914d2-b6ca-4002-b0d2-a6d195053404"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1380),
+                            Id = new Guid("9acd8a5a-0d20-46e7-bac8-e22ed05c629f"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8450),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000029")
                         },
                         new
                         {
-                            Id = new Guid("cd1d6e86-4ea9-43dc-a3ad-c63e3c8f45e2"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1380),
+                            Id = new Guid("cf487a0a-38cc-4e57-80ae-935dc706d5c5"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8460),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000030")
                         },
                         new
                         {
-                            Id = new Guid("11f59b39-3492-4778-a7a4-963926b3174c"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1390),
+                            Id = new Guid("dbb2d56e-5b2b-4118-bdcd-b3de415e0250"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8460),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000031")
                         },
                         new
                         {
-                            Id = new Guid("d4f7ebca-43ee-4d0e-b34b-0773f8364525"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1390),
+                            Id = new Guid("c6e77136-78d1-43df-b0e2-140290c919ae"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8470),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000032")
                         },
                         new
                         {
-                            Id = new Guid("e3d110bd-1951-4db3-a201-c6e2fabe9d8c"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1390),
+                            Id = new Guid("c30ebe8f-3751-41c3-a8be-f0db79a27296"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8470),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000033")
                         },
                         new
                         {
-                            Id = new Guid("7c031eb6-8513-4798-8ab6-3dbd7125401d"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1400),
+                            Id = new Guid("dfa5f693-b165-4f98-9157-43b60871f0ed"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8470),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000034")
                         },
                         new
                         {
-                            Id = new Guid("6c57f9b1-3874-424b-a751-ed6fad656917"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1400),
+                            Id = new Guid("4119f062-bf52-4afc-8d88-66ed12ca18f7"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8480),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000035")
                         },
                         new
                         {
-                            Id = new Guid("45f6b574-1ea3-4350-b6f5-b3b7ab6c68a6"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1400),
+                            Id = new Guid("9b1c534d-1795-4648-9809-01298b792dcb"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8480),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000036")
                         },
                         new
                         {
-                            Id = new Guid("bfdf011d-2e12-4e6a-960a-cf2b0e4e0685"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1410),
+                            Id = new Guid("c6e28d9f-51b4-45ab-a639-15327556c831"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8480),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000037")
                         },
                         new
                         {
-                            Id = new Guid("2faaf5fa-c30b-4a46-9f62-c55b48502c05"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1410),
+                            Id = new Guid("55e10782-c423-4153-a640-d31bca6890a0"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8490),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000038")
                         },
                         new
                         {
-                            Id = new Guid("e74ba1d6-5eea-424c-a1b1-d46e4c8cfde7"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1420),
+                            Id = new Guid("5ab52e5b-407c-436d-898e-16f576fd1c08"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8490),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000039")
                         },
                         new
                         {
-                            Id = new Guid("27381cdc-f3fc-4683-9f8d-aaac6e7359d3"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1420),
+                            Id = new Guid("98eb5f08-1906-4359-8ecc-b2287ed44274"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8500),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000002"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000040")
                         },
                         new
                         {
-                            Id = new Guid("58755760-5c7c-425d-9743-f339fa06bb71"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1420),
+                            Id = new Guid("62d79583-6cf5-4ee2-96f8-27487c9857d5"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8500),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000004"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000041")
                         },
                         new
                         {
-                            Id = new Guid("f1b9d626-4b04-4037-a804-3541cccbc39f"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1430),
+                            Id = new Guid("80e25c23-4339-48b0-b922-818fcf6310a6"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8500),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000004"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000042")
                         },
                         new
                         {
-                            Id = new Guid("d7cb460d-a330-4cff-b338-9cfb1f47c63f"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1430),
+                            Id = new Guid("1dfeb8cb-5462-4016-b030-82f7afcc328e"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8510),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000005"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000043")
                         },
                         new
                         {
-                            Id = new Guid("1406423d-2788-4d18-8a46-bab6e39a0341"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1430),
+                            Id = new Guid("57ff712f-dee7-4462-ba9e-b4afe2139e05"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8510),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000006"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000044")
                         },
                         new
                         {
-                            Id = new Guid("f92f4643-b5ae-450e-b09c-73660d807260"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1440),
+                            Id = new Guid("95de6c49-d41a-459a-b6cf-095b2098800b"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8510),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000004"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000045")
                         },
                         new
                         {
-                            Id = new Guid("c5e16f3b-2edb-4872-88b3-009fac97a259"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1440),
+                            Id = new Guid("314e98ef-c411-4a59-b514-8736d39ad7cd"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8520),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000003"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000046")
                         },
                         new
                         {
-                            Id = new Guid("81c8e5a5-e00c-4488-96c5-54e866cd7601"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1440),
+                            Id = new Guid("ccf3f6f7-8963-4da8-a270-4781656f19a3"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8520),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000004"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000047")
                         },
                         new
                         {
-                            Id = new Guid("7d9e66ab-ea84-4469-85a7-40c93bdb54cb"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1450),
+                            Id = new Guid("2719c4f1-a063-41e4-8edf-59b76636c0e3"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8520),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000003"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000048")
                         },
                         new
                         {
-                            Id = new Guid("cee75c8c-c381-4bea-9495-04087850c8e7"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1450),
+                            Id = new Guid("f9e8a480-0e73-4da9-82f5-e4b3417d96dc"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8530),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000003"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000049")
                         },
                         new
                         {
-                            Id = new Guid("bd2d581c-13ad-4600-9c40-b9c00a6e1394"),
-                            CreatedDate = new DateTime(2025, 5, 19, 20, 25, 13, 39, DateTimeKind.Utc).AddTicks(1450),
+                            Id = new Guid("8481bb18-200f-4f7d-8c11-9676d3faaa68"),
+                            CreatedDate = new DateTime(2025, 5, 19, 22, 7, 54, 765, DateTimeKind.Utc).AddTicks(8530),
                             OperationClaimId = new Guid("00000000-0000-0000-0000-000000000004"),
                             UserId = new Guid("40000000-0000-0000-0000-000000000050")
                         });
