@@ -1,6 +1,6 @@
 using Domain.Entities;
 using Domain.Enums;
-using Persistence.Seeds; // Assuming DepartmentSeeds is in this namespace or accessible
+using Persistence.Seeds;
 using System;
 using System.Collections.Generic;
 
@@ -8,7 +8,7 @@ namespace Persistence.Seeds
 {
     public static class CourseSeeds
     {
-        // Guids from original template (if course code matches transcript)
+        // Mandatory Courses
         public static readonly Guid Math141Id = new("30000000-0000-0000-0000-000000000001");
         public static readonly Guid Phys121Id = new("30000000-0000-0000-0000-000000000002");
         public static readonly Guid Ceng111Id = new("30000000-0000-0000-0000-000000000003");
@@ -19,19 +19,26 @@ namespace Persistence.Seeds
         public static readonly Guid Phys122Id = new("30000000-0000-0000-0000-000000000008");
         public static readonly Guid Math144Id = new("30000000-0000-0000-0000-000000000009");
         public static readonly Guid Ceng112Id = new("30000000-0000-0000-0000-000000000010");
+        public static readonly Guid Econ106Id = new("30000000-0000-0000-0000-000000000011");
         public static readonly Guid Eng102Id = new("30000000-0000-0000-0000-000000000012");
+        public static readonly Guid Gcc101Id = new("30000000-0000-0000-0000-000000000013");
         public static readonly Guid Ceng211Id = new("30000000-0000-0000-0000-000000000014");
         public static readonly Guid Ceng213Id = new("30000000-0000-0000-0000-000000000015");
         public static readonly Guid Ceng215Id = new("30000000-0000-0000-0000-000000000016");
         public static readonly Guid Math255Id = new("30000000-0000-0000-0000-000000000017");
         public static readonly Guid Hist201Id = new("30000000-0000-0000-0000-000000000018");
         public static readonly Guid Turk201Id = new("30000000-0000-0000-0000-000000000019");
+        public static readonly Guid Hist203Id = new("30000000-0000-0000-0000-000000000020");
+        public static readonly Guid Turk203Id = new("30000000-0000-0000-0000-000000000021");
         public static readonly Guid Ceng212Id = new("30000000-0000-0000-0000-000000000022");
         public static readonly Guid Ceng214Id = new("30000000-0000-0000-0000-000000000023");
+        public static readonly Guid Ceng216Id = new("30000000-0000-0000-0000-000000000024");
         public static readonly Guid Ceng218Id = new("30000000-0000-0000-0000-000000000025");
         public static readonly Guid Ceng222Id = new("30000000-0000-0000-0000-000000000026");
         public static readonly Guid Hist202Id = new("30000000-0000-0000-0000-000000000027");
         public static readonly Guid Turk202Id = new("30000000-0000-0000-0000-000000000028");
+        public static readonly Guid Hist204Id = new("30000000-0000-0000-0000-000000000029");
+        public static readonly Guid Turk204Id = new("30000000-0000-0000-0000-000000000030");
         public static readonly Guid Ceng311Id = new("30000000-0000-0000-0000-000000000031");
         public static readonly Guid Ceng315Id = new("30000000-0000-0000-0000-000000000032");
         public static readonly Guid Ceng312Id = new("30000000-0000-0000-0000-000000000033");
@@ -41,50 +48,130 @@ namespace Persistence.Seeds
         public static readonly Guid Ceng411Id = new("30000000-0000-0000-0000-000000000037");
         public static readonly Guid Ceng415Id = new("30000000-0000-0000-0000-000000000038");
         public static readonly Guid Ceng416Id = new("30000000-0000-0000-0000-000000000039");
+
+        // Technical Elective Courses
+        public static readonly Guid Ceng370Id = new("30000000-0000-0000-0000-000000000040");
+        public static readonly Guid Ceng381Id = new("30000000-0000-0000-0000-000000000041");
+        public static readonly Guid Ceng382Id = new("30000000-0000-0000-0000-000000000042");
+        public static readonly Guid Ceng383Id = new("30000000-0000-0000-0000-000000000043");
+        public static readonly Guid Ceng384Id = new("30000000-0000-0000-0000-000000000044");
+        public static readonly Guid Ceng385Id = new("30000000-0000-0000-0000-000000000045");
+        public static readonly Guid Ceng386Id = new("30000000-0000-0000-0000-000000000046");
+        public static readonly Guid Ceng388Id = new("30000000-0000-0000-0000-000000000047");
+        public static readonly Guid Ceng389Id = new("30000000-0000-0000-0000-000000000048");
+        public static readonly Guid Ceng390Id = new("30000000-0000-0000-0000-000000000049");
         public static readonly Guid Ceng391Id = new("30000000-0000-0000-0000-000000000050");
+        public static readonly Guid Ceng421Id = new("30000000-0000-0000-0000-000000000051");
+        public static readonly Guid Ceng422Id = new("30000000-0000-0000-0000-000000000052");
         public static readonly Guid Ceng431Id = new("30000000-0000-0000-0000-000000000053");
+        public static readonly Guid Ceng432Id = new("30000000-0000-0000-0000-000000000054");
+        public static readonly Guid Ceng433Id = new("30000000-0000-0000-0000-000000000055");
+        public static readonly Guid Ceng434Id = new("30000000-0000-0000-0000-000000000056");
+        public static readonly Guid Ceng435Id = new("30000000-0000-0000-0000-000000000057");
+        public static readonly Guid Ceng436Id = new("30000000-0000-0000-0000-000000000058");
+        public static readonly Guid Ceng437Id = new("30000000-0000-0000-0000-000000000059");
+        public static readonly Guid Ceng441Id = new("30000000-0000-0000-0000-000000000060");
+        public static readonly Guid Ceng442Id = new("30000000-0000-0000-0000-000000000061");
+        public static readonly Guid Ceng443Id = new("30000000-0000-0000-0000-000000000062");
+        public static readonly Guid Ceng444Id = new("30000000-0000-0000-0000-000000000063");
+        public static readonly Guid Ceng451Id = new("30000000-0000-0000-0000-000000000064");
+        public static readonly Guid Ceng452Id = new("30000000-0000-0000-0000-000000000065");
+        public static readonly Guid Ceng461Id = new("30000000-0000-0000-0000-000000000066");
+        public static readonly Guid Ceng462Id = new("30000000-0000-0000-0000-000000000067");
         public static readonly Guid Ceng463Id = new("30000000-0000-0000-0000-000000000068");
         public static readonly Guid Ceng464Id = new("30000000-0000-0000-0000-000000000069");
         public static readonly Guid Ceng465Id = new("30000000-0000-0000-0000-000000000070");
+        public static readonly Guid Ceng471Id = new("30000000-0000-0000-0000-000000000071");
+        public static readonly Guid Ceng472Id = new("30000000-0000-0000-0000-000000000072");
+        public static readonly Guid Ceng473Id = new("30000000-0000-0000-0000-000000000073");
+        public static readonly Guid Ceng481Id = new("30000000-0000-0000-0000-000000000074");
+        public static readonly Guid Ceng482Id = new("30000000-0000-0000-0000-000000000075");
+        public static readonly Guid Ceng483Id = new("30000000-0000-0000-0000-000000000076");
+        public static readonly Guid Ceng484Id = new("30000000-0000-0000-0000-000000000077");
+        public static readonly Guid Ceng485Id = new("30000000-0000-0000-0000-000000000078");
+        public static readonly Guid Ceng486Id = new("30000000-0000-0000-0000-000000000079");
+        public static readonly Guid Ceng487Id = new("30000000-0000-0000-0000-000000000080");
+        public static readonly Guid Ceng488Id = new("30000000-0000-0000-0000-000000000081");
+
+        // Non-Technical Elective Courses
+        public static readonly Guid Art201Id = new("30000000-0000-0000-0000-000000000082");
+        public static readonly Guid Art202Id = new("30000000-0000-0000-0000-000000000083");
+        public static readonly Guid Art203Id = new("30000000-0000-0000-0000-000000000084");
+        public static readonly Guid Art204Id = new("30000000-0000-0000-0000-000000000085");
+        public static readonly Guid Art205Id = new("30000000-0000-0000-0000-000000000086");
+        public static readonly Guid Art206Id = new("30000000-0000-0000-0000-000000000087");
+        public static readonly Guid Art210Id = new("30000000-0000-0000-0000-000000000088");
+        public static readonly Guid Art211Id = new("30000000-0000-0000-0000-000000000089");
+        public static readonly Guid Art212Id = new("30000000-0000-0000-0000-000000000090");
+        public static readonly Guid Art230Id = new("30000000-0000-0000-0000-000000000091");
+        public static readonly Guid Art231Id = new("30000000-0000-0000-0000-000000000092");
+        public static readonly Guid Art232Id = new("30000000-0000-0000-0000-000000000093");
+        public static readonly Guid Chn201Id = new("30000000-0000-0000-0000-000000000094");
+        public static readonly Guid Fren201Id = new("30000000-0000-0000-0000-000000000095");
+        public static readonly Guid Fren202Id = new("30000000-0000-0000-0000-000000000096");
+        public static readonly Guid Fren203Id = new("30000000-0000-0000-0000-000000000097");
+        public static readonly Guid Ger201Id = new("30000000-0000-0000-0000-000000000098");
+        public static readonly Guid Ger202Id = new("30000000-0000-0000-0000-000000000099");
+        public static readonly Guid Ger203Id = new("30000000-0000-0000-0000-000000000100");
+        public static readonly Guid Ger204Id = new("30000000-0000-0000-0000-000000000101");
+        public static readonly Guid Hum203Id = new("30000000-0000-0000-0000-000000000102");
+        public static readonly Guid Hum205Id = new("30000000-0000-0000-0000-000000000103");
+        public static readonly Guid Hum206Id = new("30000000-0000-0000-0000-000000000104");
+        public static readonly Guid Hum207Id = new("30000000-0000-0000-0000-000000000105");
+        public static readonly Guid Hum208Id = new("30000000-0000-0000-0000-000000000106");
+        public static readonly Guid Hum211Id = new("30000000-0000-0000-0000-000000000107");
+        public static readonly Guid Hum213Id = new("30000000-0000-0000-0000-000000000108");
+        public static readonly Guid Hum214Id = new("30000000-0000-0000-0000-000000000109");
+        public static readonly Guid Hum215Id = new("30000000-0000-0000-0000-000000000110");
+        public static readonly Guid Hum216Id = new("30000000-0000-0000-0000-000000000111");
+        public static readonly Guid Hum217Id = new("30000000-0000-0000-0000-000000000112");
+        public static readonly Guid Hum218Id = new("30000000-0000-0000-0000-000000000113");
+        public static readonly Guid Hum219Id = new("30000000-0000-0000-0000-000000000114");
+        public static readonly Guid Hum220Id = new("30000000-0000-0000-0000-000000000115");
+        public static readonly Guid Hum223Id = new("30000000-0000-0000-0000-000000000116");
+        public static readonly Guid Hum226Id = new("30000000-0000-0000-0000-000000000117");
+        public static readonly Guid Hum227Id = new("30000000-0000-0000-0000-000000000118");
+        public static readonly Guid Hum230Id = new("30000000-0000-0000-0000-000000000119");
+        public static readonly Guid Hum231Id = new("30000000-0000-0000-0000-000000000120");
+        public static readonly Guid Hum232Id = new("30000000-0000-0000-0000-000000000121");
+        public static readonly Guid Hum233Id = new("30000000-0000-0000-0000-000000000122");
+        public static readonly Guid Hum240Id = new("30000000-0000-0000-0000-000000000123");
+        public static readonly Guid Hum251Id = new("30000000-0000-0000-0000-000000000124");
+        public static readonly Guid Hum252Id = new("30000000-0000-0000-0000-000000000125");
+        public static readonly Guid Hum255Id = new("30000000-0000-0000-0000-000000000126");
+        public static readonly Guid Hum256Id = new("30000000-0000-0000-0000-000000000127");
+        public static readonly Guid Jap201Id = new("30000000-0000-0000-0000-000000000128");
+        public static readonly Guid Jap202Id = new("30000000-0000-0000-0000-000000000129");
+        public static readonly Guid Jap203Id = new("30000000-0000-0000-0000-000000000130");
+        public static readonly Guid Man203Id = new("30000000-0000-0000-0000-000000000131");
+        public static readonly Guid Man205Id = new("30000000-0000-0000-0000-000000000132");
+        public static readonly Guid Man206Id = new("30000000-0000-0000-0000-000000000133");
+        public static readonly Guid Man210Id = new("30000000-0000-0000-0000-000000000134");
+        public static readonly Guid Man211Id = new("30000000-0000-0000-0000-000000000135");
+        public static readonly Guid Man215Id = new("30000000-0000-0000-0000-000000000136");
         public static readonly Guid Man216Id = new("30000000-0000-0000-0000-000000000137");
+        public static readonly Guid Man217Id = new("30000000-0000-0000-0000-000000000138");
+        public static readonly Guid Man218Id = new("30000000-0000-0000-0000-000000000139");
+        public static readonly Guid Man220Id = new("30000000-0000-0000-0000-000000000140");
+        public static readonly Guid Man221Id = new("30000000-0000-0000-0000-000000000141");
+        public static readonly Guid Man230Id = new("30000000-0000-0000-0000-000000000142");
+        public static readonly Guid Man231Id = new("30000000-0000-0000-0000-000000000143");
+        public static readonly Guid Rus201Id = new("30000000-0000-0000-0000-000000000144");
+        public static readonly Guid Rus202Id = new("30000000-0000-0000-0000-000000000145");
+        public static readonly Guid Rus203Id = new("30000000-0000-0000-0000-000000000146");
+        public static readonly Guid Rus204Id = new("30000000-0000-0000-0000-000000000147");
+        public static readonly Guid Rus205Id = new("30000000-0000-0000-0000-000000000148");
+        public static readonly Guid Rus206Id = new("30000000-0000-0000-0000-000000000149");
+        public static readonly Guid Span203Id = new("30000000-0000-0000-0000-000000000150");
+        public static readonly Guid Span204Id = new("30000000-0000-0000-0000-000000000151");
+        public static readonly Guid Sprt201Id = new("30000000-0000-0000-0000-000000000152");
+        public static readonly Guid Sprt202Id = new("30000000-0000-0000-0000-000000000153");
+        public static readonly Guid Sprt203Id = new("30000000-0000-0000-0000-000000000154");
+        public static readonly Guid Sprt204Id = new("30000000-0000-0000-0000-000000000155");
+        public static readonly Guid Sprt206Id = new("30000000-0000-0000-0000-000000000156");
+        public static readonly Guid Sprt208Id = new("30000000-0000-0000-0000-000000000157");
 
-
-        // New Guids for courses in transcript but not in original template's specific Guids
-        public static readonly Guid Econ205Id = new("40000000-0000-0000-0000-000000000001");
-        public static readonly Guid Ceng323Id = new("40000000-0000-0000-0000-000000000002");
-        public static readonly Guid Ceng246Id = new("40000000-0000-0000-0000-000000000003");
-        public static readonly Guid Man223Id = new("40000000-0000-0000-0000-000000000004");
-        public static readonly Guid Ceng400Id = new("40000000-0000-0000-0000-000000000005");
-        public static readonly Guid Sprt211Id = new("40000000-0000-0000-0000-000000000006");
-        public static readonly Guid Ceng418Id = new("40000000-0000-0000-0000-000000000007");
-        public static readonly Guid Ceng424Id = new("40000000-0000-0000-0000-000000000008");
-        public static readonly Guid Ceng506Id = new("40000000-0000-0000-0000-000000000009");
-
-
-        // Additional Missing Courses
-        public static readonly Guid Econ205Id = new("30000000-0000-0000-0000-000000000158");
-        public static readonly Guid Ceng246Id = new("30000000-0000-0000-0000-000000000159");
-        public static readonly Guid Ceng323Id = new("30000000-0000-0000-0000-000000000160");
-        public static readonly Guid Man223Id = new("30000000-0000-0000-0000-000000000161");
-        public static readonly Guid Ceng400Id = new("30000000-0000-0000-0000-000000000162");
-        public static readonly Guid Sprt211Id = new("30000000-0000-0000-0000-000000000163");
-        public static readonly Guid Ceng418Id = new("30000000-0000-0000-0000-000000000164");
-        public static readonly Guid Ceng424Id = new("30000000-0000-0000-0000-000000000165");
-        public static readonly Guid Ceng506Id = new("30000000-0000-0000-0000-000000000166");
-
-        // Additional Missing Courses
-        public static readonly Guid Econ205Id = new("30000000-0000-0000-0000-000000000158");
-        public static readonly Guid Ceng246Id = new("30000000-0000-0000-0000-000000000159");
-        public static readonly Guid Ceng323Id = new("30000000-0000-0000-0000-000000000160");
-        public static readonly Guid Man223Id = new("30000000-0000-0000-0000-000000000161");
-        public static readonly Guid Ceng400Id = new("30000000-0000-0000-0000-000000000162");
-        public static readonly Guid Sprt211Id = new("30000000-0000-0000-0000-000000000163");
-        public static readonly Guid Ceng418Id = new("30000000-0000-0000-0000-000000000164");
-        public static readonly Guid Ceng424Id = new("30000000-0000-0000-0000-000000000165");
-        public static readonly Guid Ceng506Id = new("30000000-0000-0000-0000-000000000166");
-
-        // Additional Missing Courses
-        public static readonly Guid Econ205Id = new("30000000-0000-0000-0000-000000000158");
+              public static readonly Guid Econ205Id = new("30000000-0000-0000-0000-000000000158");
         public static readonly Guid Ceng246Id = new("30000000-0000-0000-0000-000000000159");
         public static readonly Guid Ceng323Id = new("30000000-0000-0000-0000-000000000160");
         public static readonly Guid Man223Id = new("30000000-0000-0000-0000-000000000161");
@@ -98,67 +185,91 @@ namespace Persistence.Seeds
         {
             return new List<Course>
             {
-                // Courses from Transcript
-                // 2021-2022 Öğrenim Öncesi Alınan Dersler + Güz + Bahar (Combined for simplicity)
-                new Course { Id = Ceng111Id, CourseCode = "CENG111", CourseName = "BILGISAYAR MUHENDISLIGI KAVRAMLARI", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 4, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng112Id, CourseCode = "CENG112", CourseName = "VERI YAPILARI", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 7, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng113Id, CourseCode = "CENG113", CourseName = "PROGRAMLAMAYA GIRIS", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 4, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Eng101Id, CourseCode = "ENG101", CourseName = "INGILIZCE OKUMA VE YAZMA BECERILERI I", DepartmentId = DepartmentSeeds.ForeignLanguagesId, Ects = 4, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Eng102Id, CourseCode = "ENG102", CourseName = "INGILIZCE OKUMA VE YAZMA BECERILERI II", DepartmentId = DepartmentSeeds.ForeignLanguagesId, Ects = 4, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Math141Id, CourseCode = "MATH141", CourseName = "TEMEL ANALIZ I", DepartmentId = DepartmentSeeds.MathematicsId, Ects = 7, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Math142Id, CourseCode = "MATH142", CourseName = "TEMEL ANALİZ II", DepartmentId = DepartmentSeeds.MathematicsId, Ects = 7, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Math144Id, CourseCode = "MATH144", CourseName = "SONLU MATEMATIK", DepartmentId = DepartmentSeeds.MathematicsId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Phys121Id, CourseCode = "PHYS121", CourseName = "GENEL FIZIK I", DepartmentId = DepartmentSeeds.PhysicsId, Ects = 6, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Phys122Id, CourseCode = "PHYS122", CourseName = "GENEL FIZIK II", DepartmentId = DepartmentSeeds.PhysicsId, Ects = 6, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Turk201Id, CourseCode = "TURK201", CourseName = "TÜRK DİLİ DERSLERİ I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 2, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Turk202Id, CourseCode = "TURK202", CourseName = "TÜRK DİLİ DERSLERİ II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 2, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                // Mandatory Courses
+                new Course { Id = Math141Id, CourseCode = "MATH 141", CourseName = "Calculus I", DepartmentId = DepartmentSeeds.MathematicsId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Phys121Id, CourseCode = "PHYS 121", CourseName = "Physics I", DepartmentId = DepartmentSeeds.PhysicsId, Ects = 7, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng111Id, CourseCode = "CENG 111", CourseName = "Introduction to Computer Engineering", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng113Id, CourseCode = "CENG 113", CourseName = "Introduction to Programming", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 6, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng115Id, CourseCode = "CENG 115", CourseName = "Discrete Structures", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Eng101Id, CourseCode = "ENG 101", CourseName = "Academic English I", DepartmentId = DepartmentSeeds.ForeignLanguagesId, Ects = 3, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Math142Id, CourseCode = "MATH 142", CourseName = "Calculus II", DepartmentId = DepartmentSeeds.MathematicsId, Ects = 6, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Phys122Id, CourseCode = "PHYS 122", CourseName = "Physics II", DepartmentId = DepartmentSeeds.PhysicsId, Ects = 8, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Math144Id, CourseCode = "MATH 144", CourseName = "Finite Mathematics", DepartmentId = DepartmentSeeds.MathematicsId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng112Id, CourseCode = "CENG 112", CourseName = "Data Structures", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Econ106Id, CourseCode = "ECON 106", CourseName = "Principles of Economics", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Eng102Id, CourseCode = "ENG 102", CourseName = "Academic English II", DepartmentId = DepartmentSeeds.ForeignLanguagesId, Ects = 3, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Gcc101Id, CourseCode = "GCC 101", CourseName = "Career Planning and Development", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 0, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now }, // ECTS null, 0 olarak ayarlandı
+                new Course { Id = Ceng211Id, CourseCode = "CENG 211", CourseName = "Fundamentals of Programming", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng213Id, CourseCode = "CENG 213", CourseName = "Theory of Computation", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng215Id, CourseCode = "CENG 215", CourseName = "Circuits and Electronics", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 6, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Math255Id, CourseCode = "MATH 255", CourseName = "Differential Equations", DepartmentId = DepartmentSeeds.MathematicsId, Ects = 6, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Hist201Id, CourseCode = "HIST 201", CourseName = "History of Turkish Republic I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 2, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Turk201Id, CourseCode = "TURK 201", CourseName = "Turkish Language I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 2, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Hist203Id, CourseCode = "HIST 203", CourseName = "History of Turkish Revolution I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 2, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Turk203Id, CourseCode = "TURK 203", CourseName = "Turkish for International Students I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 2, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng212Id, CourseCode = "CENG 212", CourseName = "Programming Language Concepts", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng214Id, CourseCode = "CENG 214", CourseName = "Logic Design", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 6, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng216Id, CourseCode = "CENG 216", CourseName = "Numerical Computing", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng218Id, CourseCode = "CENG 218", CourseName = "Analysis and Design of Algorithms", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng222Id, CourseCode = "CENG 222", CourseName = "Probability and Statistics", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Hist202Id, CourseCode = "HIST 202", CourseName = "History of Turkish Republic II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 2, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Turk202Id, CourseCode = "TURK 202", CourseName = "Turkish Language II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 2, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Hist204Id, CourseCode = "HIST 204", CourseName = "History of Turkish Revolution II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 2, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Turk204Id, CourseCode = "TURK 204", CourseName = "Turkish for International Students II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 2, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng311Id, CourseCode = "CENG 311", CourseName = "Computer Architecture", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 8, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng315Id, CourseCode = "CENG 315", CourseName = "Information Management", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 6, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng312Id, CourseCode = "CENG 312", CourseName = "Computer Networks", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 6, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng316Id, CourseCode = "CENG 316", CourseName = "Software Engineering", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 6, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng318Id, CourseCode = "CENG 318", CourseName = "Human-Computer Interaction", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 6, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng322Id, CourseCode = "CENG 322", CourseName = "Operating Systems", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 8, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng411Id, CourseCode = "CENG 411", CourseName = "Professionalism in Computer Engineering", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 6, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng415Id, CourseCode = "CENG 415", CourseName = "Undergraduate Thesis and Seminar I", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 8, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng416Id, CourseCode = "CENG 416", CourseName = "Undergraduate Thesis and Seminar II", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 8, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
                 
-                new Course { Id = Ceng211Id, CourseCode = "CENG211", CourseName = "PROGRAMLAMANIN TEMELLERI", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 6, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng213Id, CourseCode = "CENG213", CourseName = "ISLEM TEORISI", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 6, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now }, // Taken twice
-                new Course { Id = Ceng215Id, CourseCode = "CENG215", CourseName = "DEVRELER VE ELEKTRONIK", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 7, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Econ205Id, CourseCode = "ECON205", CourseName = "EKONOMININ PRENSIPLERI", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
-                new Course { Id = Math255Id, CourseCode = "MATH255", CourseName = "DIFERANSIYEL DENKLEMLER", DepartmentId = DepartmentSeeds.MathematicsId, Ects = 6, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Hist201Id, CourseCode = "HIST201", CourseName = "ATATÜRK İLKELERİ VE İNKILAP TARİHİ I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 2, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Man216Id, CourseCode = "MAN216", CourseName = "PAZARLAMAYA GIRIS", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 5, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now }, // ECTS from curriculum, transcript missing it for this entry
-                
-                new Course { Id = Ceng212Id, CourseCode = "CENG212", CourseName = "PROGRAMLAMA DILLERI KAVRAMI", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng214Id, CourseCode = "CENG214", CourseName = "MANTIK TASARIMI", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 7, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng246Id, CourseCode = "CENG246", CourseName = "SAYISAL HESAPLAMA", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now }, // Student took CENG246
-                new Course { Id = Ceng218Id, CourseCode = "CENG218", CourseName = "ALGORITMALARIN ANALİZ VE TASARIMI", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 6, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now }, // Taken twice
-                new Course { Id = Ceng222Id, CourseCode = "CENG222", CourseName = "OLASILIK VE İSTATİSTİK", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Hist202Id, CourseCode = "HIST202", CourseName = "ATATÜRK İLKELERİ VE İNKILAP TARİHİ II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 2, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                // Technical Elective Courses
+                new Course { Id = Ceng370Id, CourseCode = "CENG 370", CourseName = "Mainframe Computers", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng381Id, CourseCode = "CENG 381", CourseName = "Stochastic Processes", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng382Id, CourseCode = "CENG 382", CourseName = "Information Theory", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng383Id, CourseCode = "CENG 383", CourseName = "Real-Time Systems", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng384Id, CourseCode = "CENG 384", CourseName = "Microprocessors", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng385Id, CourseCode = "CENG 385", CourseName = "Mathematical Logic", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng386Id, CourseCode = "CENG 386", CourseName = "Fuzzy Logic Systems", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng388Id, CourseCode = "CENG 388", CourseName = "Web Programming", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng389Id, CourseCode = "CENG 389", CourseName = "Mobile Application Development", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng390Id, CourseCode = "CENG 390", CourseName = "Cloud Computing", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng391Id, CourseCode = "CENG 391", CourseName = "Introduction to Image Understanding", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng421Id, CourseCode = "CENG 421", CourseName = "Computer Network Programming", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng422Id, CourseCode = "CENG 422", CourseName = "Computer Network Design and Management", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng431Id, CourseCode = "CENG 431", CourseName = "Software Systems Development", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng432Id, CourseCode = "CENG 432", CourseName = "Fundamentals of Enterprise Application Development", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng433Id, CourseCode = "CENG 433", CourseName = "Scalable Software Development for the Internet", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng434Id, CourseCode = "CENG 434", CourseName = "Enterprise Application Integrations", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng435Id, CourseCode = "CENG 435", CourseName = "Database Management System Design and Implementation", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng436Id, CourseCode = "CENG 436", CourseName = "Distributed Information Management", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng437Id, CourseCode = "CENG 437", CourseName = "Software Quality Management", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng441Id, CourseCode = "CENG 441", CourseName = "Introduction to Parallel Programming", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng442Id, CourseCode = "CENG 442", CourseName = "Multi-Core Architectures and Operating Systems", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng443Id, CourseCode = "CENG 443", CourseName = "Heterogeneous Parallel Programming", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng444Id, CourseCode = "CENG 444", CourseName = "Parallel Programming Patterns", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng451Id, CourseCode = "CENG 451", CourseName = "Advanced Digital System Design", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng452Id, CourseCode = "CENG 452", CourseName = "Software Development for Embedded Systems", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng461Id, CourseCode = "CENG 461", CourseName = "Artificial Intelligence", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng462Id, CourseCode = "CENG 462", CourseName = "Soft Computing", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng463Id, CourseCode = "CENG 463", CourseName = "Introduction to Machine Learning", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng464Id, CourseCode = "CENG 464", CourseName = "Text Mining", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng465Id, CourseCode = "CENG 465", CourseName = "Principles of Data-Intensive Systems", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng471Id, CourseCode = "CENG 471", CourseName = "Cryptography", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng472Id, CourseCode = "CENG 472", CourseName = "Computer Network Security", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng473Id, CourseCode = "CENG 473", CourseName = "Information and Communication Technologies Security", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng481Id, CourseCode = "CENG 481", CourseName = "Theoretical Approaches in Computer Science", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng482Id, CourseCode = "CENG 482", CourseName = "Evolutionary Computation", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng483Id, CourseCode = "CENG 483", CourseName = "Behavioral Robotics", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng484Id, CourseCode = "CENG 484", CourseName = "Data Mining", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng485Id, CourseCode = "CENG 485", CourseName = "Entrepreneurship in Information Technologies", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng486Id, CourseCode = "CENG 486", CourseName = "Entrepreneurship for Smart Businesses", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng487Id, CourseCode = "CENG 487", CourseName = "Introduction to Computer Graphics", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng488Id, CourseCode = "CENG 488", CourseName = "Computer Graphics", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
 
-<<<<<<< Updated upstream
-                // 2022-2023 Güz
-                new Course { Id = Ceng115Id, CourseCode = "CENG115", CourseName = "AYRIK YAPILAR", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now }, // Taken twice
-                new Course { Id = Ceng311Id, CourseCode = "CENG311", CourseName = "BILGISAYAR MIMARISI", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 8, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng315Id, CourseCode = "CENG315", CourseName = "BİLGİ YÖNETIMI", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 7, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng323Id, CourseCode = "CENG323", CourseName = "PROJE YÖNETİMİ", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 8, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng391Id, CourseCode = "CENG391", CourseName = "IMGE ANLAMAYA GİRİŞ", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
-
-                // 2022-2023 Bahar
-                new Course { Id = Ceng312Id, CourseCode = "CENG312", CourseName = "BİLGİSAYAR AĞLARI", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 7, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng316Id, CourseCode = "CENG316", CourseName = "YAZILIM MUHENDISLIGI", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 8, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng318Id, CourseCode = "CENG318", CourseName = "INSAN BİLGİSAYAR ETKİLEŞİMİ", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng322Id, CourseCode = "CENG322", CourseName = "İŞLETİM SİSTEMLERİ", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 8, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng431Id, CourseCode = "CENG431", CourseName = "YAZILIM SİSTEMLERİ GELİŞTİRİLMESİ", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
-                new Course { Id = Man223Id, CourseCode = "MAN223", CourseName = "YARATICI PROJE YAZIMI VE SUNUMU", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
-
-                // 2023-2024 Güz
-                new Course { Id = Ceng400Id, CourseCode = "CENG400", CourseName = "YAZ STAJI", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 4, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng411Id, CourseCode = "CENG411", CourseName = "BİLGİSAYAR MÜHENDİSLİĞİNDE PROFESYONELLİK", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 4, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng415Id, CourseCode = "CENG415", CourseName = "LISANS TEZİ VE SEMİNER I", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 9, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Sprt211Id, CourseCode = "SPRT211", CourseName = "SU ÜSTÜ SÖRF SPORLARI", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 5, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng465Id, CourseCode = "CENG465", CourseName = "VERİ YOĞUN SİSTEMLERİN İLKELERI", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng463Id, CourseCode = "CENG463", CourseName = "YAPAY ÖĞRENMEYE GİRİS", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
-                
-                // 2023-2024 Bahar
-                new Course { Id = Ceng416Id, CourseCode = "CENG416", CourseName = "LISANS TEZİ VE SEMİNER II", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 9, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng418Id, CourseCode = "CENG418", CourseName = "BİLGİ GÜVENLİĞİ", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 6, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng424Id, CourseCode = "CENG424", CourseName = "GÖMÜLÜ BİLGİSAYAR SİSTEMLERI", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 7, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng506Id, CourseCode = "CENG506", CourseName = "DERİN ÖĞRENME", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 9, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
-                new Course { Id = Ceng464Id, CourseCode = "CENG464", CourseName = "METİN MADENCİLİĞİNE GİRİŞ", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
-=======
                 // Non-Technical Elective Courses
                 new Course { Id = Art201Id, CourseCode = "ART 201", CourseName = "Drawing-Sketch", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
                 new Course { Id = Art202Id, CourseCode = "ART 202", CourseName = "Painting", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
@@ -236,8 +347,6 @@ namespace Persistence.Seeds
                 new Course { Id = Sprt204Id, CourseCode = "SPRT 204", CourseName = "Basketball", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
                 new Course { Id = Sprt206Id, CourseCode = "SPRT 206", CourseName = "Table Tennis", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
                 new Course { Id = Sprt208Id, CourseCode = "SPRT 208", CourseName = "Basic Fitness Techniques", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
-
-                // Additional Missing Courses
                 new Course { Id = Econ205Id, CourseCode = "ECON 205", CourseName = "Principles of Economics", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
                 new Course { Id = Ceng246Id, CourseCode = "CENG 246", CourseName = "Numerical Computing", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
                 new Course { Id = Ceng323Id, CourseCode = "CENG 323", CourseName = "Project Management", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
@@ -247,14 +356,11 @@ namespace Persistence.Seeds
                 new Course { Id = Ceng418Id, CourseCode = "CENG 418", CourseName = "Information Security", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
                 new Course { Id = Ceng424Id, CourseCode = "CENG 424", CourseName = "Embedded Computer Systems", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
                 new Course { Id = Ceng506Id, CourseCode = "CENG 506", CourseName = "Deep Learning", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
+           
+           
+           
             };
         }
     }
-}
+} 
