@@ -72,6 +72,17 @@ namespace Persistence.Seeds
         public static readonly Guid Ceng424Id = new("30000000-0000-0000-0000-000000000165");
         public static readonly Guid Ceng506Id = new("30000000-0000-0000-0000-000000000166");
 
+        // Additional Missing Courses
+        public static readonly Guid Econ205Id = new("30000000-0000-0000-0000-000000000158");
+        public static readonly Guid Ceng246Id = new("30000000-0000-0000-0000-000000000159");
+        public static readonly Guid Ceng323Id = new("30000000-0000-0000-0000-000000000160");
+        public static readonly Guid Man223Id = new("30000000-0000-0000-0000-000000000161");
+        public static readonly Guid Ceng400Id = new("30000000-0000-0000-0000-000000000162");
+        public static readonly Guid Sprt211Id = new("30000000-0000-0000-0000-000000000163");
+        public static readonly Guid Ceng418Id = new("30000000-0000-0000-0000-000000000164");
+        public static readonly Guid Ceng424Id = new("30000000-0000-0000-0000-000000000165");
+        public static readonly Guid Ceng506Id = new("30000000-0000-0000-0000-000000000166");
+
         public static IEnumerable<Course> GetSeeds()
         {
             return new List<Course>
@@ -225,6 +236,9 @@ namespace Persistence.Seeds
                 new Course { Id = Ceng418Id, CourseCode = "CENG 418", CourseName = "Information Security", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
                 new Course { Id = Ceng424Id, CourseCode = "CENG 424", CourseName = "Embedded Computer Systems", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
                 new Course { Id = Ceng506Id, CourseCode = "CENG 506", CourseName = "Deep Learning", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             };
         }
