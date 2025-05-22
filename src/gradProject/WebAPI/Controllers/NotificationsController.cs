@@ -45,9 +45,25 @@ public class NotificationsController : BaseController
     }
 
     [HttpGet]
-    public async Task<IActionResult> GetList([FromQuery] PageRequest pageRequest)
+    public async Task<IActionResult> GetList([FromQuery] PageRequest pageRequest, [FromQuery] Guid? recipientUserId = null)
     {
-        GetListNotificationQuery getListNotificationQuery = new() { PageRequest = pageRequest };
+        GetListNotificationQuery getListNotificationQuery = new() 
+        { 
+            PageRequest = pageRequest,
+            RecipientUserId = recipientUserId
+        };
+        GetListResponse<GetListNotificationListItemDto> response = await Mediator.Send(getListNotificationQuery);
+        return Ok(response);
+    }
+
+    [HttpGet("user/{userId}")]
+    public async Task<IActionResult> GetByUserId([FromRoute] Guid userId, [FromQuery] PageRequest pageRequest)
+    {
+        GetListNotificationQuery getListNotificationQuery = new() 
+        { 
+            PageRequest = pageRequest,
+            RecipientUserId = userId
+        };
         GetListResponse<GetListNotificationListItemDto> response = await Mediator.Send(getListNotificationQuery);
         return Ok(response);
     }
