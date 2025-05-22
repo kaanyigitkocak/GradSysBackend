@@ -11,7 +11,6 @@ namespace Application.Features.Notifications.Queries.GetList;
 public class GetListNotificationQuery : IRequest<GetListResponse<GetListNotificationListItemDto>>
 {
     public PageRequest PageRequest { get; set; }
-    public Guid? RecipientUserId { get; set; }
 
     public class GetListNotificationQueryHandler : IRequestHandler<GetListNotificationQuery, GetListResponse<GetListNotificationListItemDto>>
     {
@@ -27,7 +26,6 @@ public class GetListNotificationQuery : IRequest<GetListResponse<GetListNotifica
         public async Task<GetListResponse<GetListNotificationListItemDto>> Handle(GetListNotificationQuery request, CancellationToken cancellationToken)
         {
             IPaginate<Notification> notifications = await _notificationRepository.GetListAsync(
-                predicate: n => !request.RecipientUserId.HasValue || n.RecipientUserId == request.RecipientUserId.Value,
                 index: request.PageRequest.PageIndex,
                 size: request.PageRequest.PageSize, 
                 cancellationToken: cancellationToken
