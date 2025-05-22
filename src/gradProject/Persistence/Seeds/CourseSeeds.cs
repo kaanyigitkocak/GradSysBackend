@@ -61,6 +61,17 @@ namespace Persistence.Seeds
         public static readonly Guid Ceng506Id = new("40000000-0000-0000-0000-000000000009");
 
 
+        // Additional Missing Courses
+        public static readonly Guid Econ205Id = new("30000000-0000-0000-0000-000000000158");
+        public static readonly Guid Ceng246Id = new("30000000-0000-0000-0000-000000000159");
+        public static readonly Guid Ceng323Id = new("30000000-0000-0000-0000-000000000160");
+        public static readonly Guid Man223Id = new("30000000-0000-0000-0000-000000000161");
+        public static readonly Guid Ceng400Id = new("30000000-0000-0000-0000-000000000162");
+        public static readonly Guid Sprt211Id = new("30000000-0000-0000-0000-000000000163");
+        public static readonly Guid Ceng418Id = new("30000000-0000-0000-0000-000000000164");
+        public static readonly Guid Ceng424Id = new("30000000-0000-0000-0000-000000000165");
+        public static readonly Guid Ceng506Id = new("30000000-0000-0000-0000-000000000166");
+
         public static IEnumerable<Course> GetSeeds()
         {
             return new List<Course>
@@ -95,6 +106,7 @@ namespace Persistence.Seeds
                 new Course { Id = Ceng222Id, CourseCode = "CENG222", CourseName = "OLASILIK VE İSTATİSTİK", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
                 new Course { Id = Hist202Id, CourseCode = "HIST202", CourseName = "ATATÜRK İLKELERİ VE İNKILAP TARİHİ II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 2, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
 
+<<<<<<< Updated upstream
                 // 2022-2023 Güz
                 new Course { Id = Ceng115Id, CourseCode = "CENG115", CourseName = "AYRIK YAPILAR", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now }, // Taken twice
                 new Course { Id = Ceng311Id, CourseCode = "CENG311", CourseName = "BILGISAYAR MIMARISI", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 8, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
@@ -124,6 +136,96 @@ namespace Persistence.Seeds
                 new Course { Id = Ceng424Id, CourseCode = "CENG424", CourseName = "GÖMÜLÜ BİLGİSAYAR SİSTEMLERI", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 7, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
                 new Course { Id = Ceng506Id, CourseCode = "CENG506", CourseName = "DERİN ÖĞRENME", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 9, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
                 new Course { Id = Ceng464Id, CourseCode = "CENG464", CourseName = "METİN MADENCİLİĞİNE GİRİŞ", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+=======
+                // Non-Technical Elective Courses
+                new Course { Id = Art201Id, CourseCode = "ART 201", CourseName = "Drawing-Sketch", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Art202Id, CourseCode = "ART 202", CourseName = "Painting", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Art203Id, CourseCode = "ART 203", CourseName = "Sculpture", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Art204Id, CourseCode = "ART 204", CourseName = "Artistic Ceramics", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Art205Id, CourseCode = "ART 205", CourseName = "Color Photography", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Art206Id, CourseCode = "ART 206", CourseName = "Introduction to Sound Production and Design", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Art210Id, CourseCode = "ART 210", CourseName = "Western Music and Aesthetics", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Art211Id, CourseCode = "ART 211", CourseName = "Music Workshop", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Art212Id, CourseCode = "ART 212", CourseName = "Introduction to Harmony", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Art230Id, CourseCode = "ART 230", CourseName = "Dance Education", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Art231Id, CourseCode = "ART 231", CourseName = "Traditional Folk Dances I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Art232Id, CourseCode = "ART 232", CourseName = "Traditional Folk Dances II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Chn201Id, CourseCode = "CHN 201", CourseName = "Basic Chinese I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Fren201Id, CourseCode = "FREN 201", CourseName = "Basic French I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Fren202Id, CourseCode = "FREN 202", CourseName = "Basic French II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Fren203Id, CourseCode = "FREN 203", CourseName = "Intermediate French I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ger201Id, CourseCode = "GER 201", CourseName = "Basic German I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ger202Id, CourseCode = "GER 202", CourseName = "Basic German II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ger203Id, CourseCode = "GER 203", CourseName = "Intermediate German I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ger204Id, CourseCode = "GER 204", CourseName = "Intermediate German II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum203Id, CourseCode = "HUM 203", CourseName = "Introduction to Social Anthropology", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum205Id, CourseCode = "HUM 205", CourseName = "Current Issues in Turkish Language", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum206Id, CourseCode = "HUM 206", CourseName = "Comparative Cultures", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum207Id, CourseCode = "HUM 207", CourseName = "Ottoman History I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum208Id, CourseCode = "HUM 208", CourseName = "Ottoman History II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum211Id, CourseCode = "HUM 211", CourseName = "Introduction to Russian Culture", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum213Id, CourseCode = "HUM 213", CourseName = "History of Western Civilizations I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum214Id, CourseCode = "HUM 214", CourseName = "History of Western Civilizations II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum215Id, CourseCode = "HUM 215", CourseName = "Mythology", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum216Id, CourseCode = "HUM 216", CourseName = "Analysis of Folklore Texts", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum217Id, CourseCode = "HUM 217", CourseName = "Art History I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum218Id, CourseCode = "HUM 218", CourseName = "Art History II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum219Id, CourseCode = "HUM 219", CourseName = "Art History III", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum220Id, CourseCode = "HUM 220", CourseName = "Introduction to Japanese Culture", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum223Id, CourseCode = "HUM 223", CourseName = "Introduction to French Culture", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum226Id, CourseCode = "HUM 226", CourseName = "Textual Analysis of Contemporary Turkish Literature", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum227Id, CourseCode = "HUM 227", CourseName = "Turkish Language Reform", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum230Id, CourseCode = "HUM 230", CourseName = "Group Dynamics", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum231Id, CourseCode = "HUM 231", CourseName = "Sociology of Work", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum232Id, CourseCode = "HUM 232", CourseName = "Visual Communication Symbols in Art and Daily Life", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum233Id, CourseCode = "HUM 233", CourseName = "Visual Perception in Art", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum240Id, CourseCode = "HUM 240", CourseName = "Introduction to Spanish Culture", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum251Id, CourseCode = "HUM 251", CourseName = "Ottoman Turkish I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum252Id, CourseCode = "HUM 252", CourseName = "Ottoman Turkish II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum255Id, CourseCode = "HUM 255", CourseName = "Latin I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Hum256Id, CourseCode = "HUM 256", CourseName = "Latin II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Jap201Id, CourseCode = "JAP 201", CourseName = "Basic Japanese I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Jap202Id, CourseCode = "JAP 202", CourseName = "Basic Japanese II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Jap203Id, CourseCode = "JAP 203", CourseName = "Intermediate Japanese I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Man203Id, CourseCode = "MAN 203", CourseName = "Project Management", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Man205Id, CourseCode = "MAN 205", CourseName = "Innovation Management", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Man206Id, CourseCode = "MAN 206", CourseName = "Businesses and Business Life", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Man210Id, CourseCode = "MAN 210", CourseName = "Corporate Communication and Management Skills", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Man211Id, CourseCode = "MAN 211", CourseName = "Communication and Management Skills for Engineers", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Man215Id, CourseCode = "MAN 215", CourseName = "Engineering Economy", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Man216Id, CourseCode = "MAN 216", CourseName = "Introduction to Marketing", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Man217Id, CourseCode = "MAN 217", CourseName = "Fundamentals of Management", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Man218Id, CourseCode = "MAN 218", CourseName = "Entrepreneurship", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Man220Id, CourseCode = "MAN 220", CourseName = "Leadership", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Man221Id, CourseCode = "MAN 221", CourseName = "Organizational and Personal Career Management", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Man230Id, CourseCode = "MAN 230", CourseName = "Law in Business Life", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Man231Id, CourseCode = "MAN 231", CourseName = "Intellectual and Industrial Property Law", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Rus201Id, CourseCode = "RUS 201", CourseName = "Basic Russian I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Rus202Id, CourseCode = "RUS 202", CourseName = "Basic Russian II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Rus203Id, CourseCode = "RUS 203", CourseName = "Intermediate Russian I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Rus204Id, CourseCode = "RUS 204", CourseName = "Intermediate Russian II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Rus205Id, CourseCode = "RUS 205", CourseName = "Advanced Russian I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Rus206Id, CourseCode = "RUS 206", CourseName = "Advanced Russian II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Span203Id, CourseCode = "SPAN 203", CourseName = "Intermediate Spanish I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Span204Id, CourseCode = "SPAN 204", CourseName = "Intermediate Spanish II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Sprt201Id, CourseCode = "SPRT 201", CourseName = "Tennis I", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Sprt202Id, CourseCode = "SPRT 202", CourseName = "Tennis II", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Sprt203Id, CourseCode = "SPRT 203", CourseName = "Badminton", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Sprt204Id, CourseCode = "SPRT 204", CourseName = "Basketball", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Sprt206Id, CourseCode = "SPRT 206", CourseName = "Table Tennis", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Sprt208Id, CourseCode = "SPRT 208", CourseName = "Basic Fitness Techniques", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+
+                // Additional Missing Courses
+                new Course { Id = Econ205Id, CourseCode = "ECON 205", CourseName = "Principles of Economics", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng246Id, CourseCode = "CENG 246", CourseName = "Numerical Computing", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 5, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng323Id, CourseCode = "CENG 323", CourseName = "Project Management", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Man223Id, CourseCode = "MAN 223", CourseName = "Creative Project Writing and Presentation", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng400Id, CourseCode = "CENG 400", CourseName = "Summer Internship", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 0, CourseType = CourseType.MANDATORY, CreatedDate = DateTime.Now },
+                new Course { Id = Sprt211Id, CourseCode = "SPRT 211", CourseName = "Water Surface Sports", DepartmentId = DepartmentSeeds.GeneralCultureCoursesId, Ects = 3, CourseType = CourseType.ELECTIVE_NON_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng418Id, CourseCode = "CENG 418", CourseName = "Information Security", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng424Id, CourseCode = "CENG 424", CourseName = "Embedded Computer Systems", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now },
+                new Course { Id = Ceng506Id, CourseCode = "CENG 506", CourseName = "Deep Learning", DepartmentId = DepartmentSeeds.ComputerEngineeringId, Ects = 3, CourseType = CourseType.ELECTIVE_TECHNICAL, CreatedDate = DateTime.Now }
+>>>>>>> Stashed changes
             };
         }
     }
