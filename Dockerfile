@@ -9,6 +9,7 @@ COPY src/gradProject/Application/*.csproj ./src/gradProject/Application/
 COPY src/gradProject/Domain/*.csproj ./src/gradProject/Domain/
 COPY src/gradProject/Infrastructure/*.csproj ./src/gradProject/Infrastructure/
 COPY src/gradProject/Persistence/*.csproj ./src/gradProject/Persistence/
+COPY tests/StarterProject.Application.Tests/*.csproj ./tests/StarterProject.Application.Tests/
 
 # Restore dependencies
 RUN dotnet restore
