@@ -121,11 +121,10 @@ app.UseRouting();
 // 7) CORS’u burada uygula
 app.UseCors("AllowLocalhost3000");
 
-if (app.Environment.IsDevelopment())
-{
+
     app.UseSwagger();
     app.UseSwaggerUI(opt => opt.DocExpansion(DocExpansion.None));
-}
+
 
 //app.ConfigureCustomExceptionMiddleware();
 app.UseDbMigrationApplier();
