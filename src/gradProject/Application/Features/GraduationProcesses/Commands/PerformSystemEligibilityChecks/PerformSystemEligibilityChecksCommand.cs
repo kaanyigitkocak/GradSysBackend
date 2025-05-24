@@ -83,7 +83,7 @@ public class PerformSystemEligibilityChecksCommandHandler : IRequestHandler<Perf
 
                 Student studentProfile = graduationProcess.StudentUser.StudentProfile;
                 GraduationRequirementSet? requirementSet = await _graduationRequirementSetRepository.GetAsync(
-                    predicate: rs => rs.DepartmentId == studentProfile.DepartmentId && rs.AcademicTerm == graduationProcess.AcademicTerm,
+                    predicate: rs => rs.DepartmentId == studentProfile.DepartmentId,
                     include: q => q.Include(rs => rs.MandatoryCourses).ThenInclude(mc => mc.Course),
                     cancellationToken: cancellationToken
                 );
