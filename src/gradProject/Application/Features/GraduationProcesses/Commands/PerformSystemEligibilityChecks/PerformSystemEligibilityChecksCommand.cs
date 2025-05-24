@@ -57,8 +57,7 @@ public class PerformSystemEligibilityChecksCommandHandler : IRequestHandler<Perf
             {
                 // Öğrencinin TRANSCRIPT_PARSE_SUCCESSFUL_PENDING_ADVISOR_CHECK statüsündeki mezuniyet sürecini bul
                 GraduationProcess? graduationProcess = await _graduationProcessRepository.GetAsync(
-                    predicate: gp => gp.StudentUserId == studentId && 
-                                     gp.Status == GraduationProcessStatus.TRANSCRIPT_PARSE_SUCCESSFUL_PENDING_ADVISOR_CHECK,
+                    predicate: gp => gp.StudentUserId == studentId,
                     include: q => q.Include(gp => gp.StudentUser).ThenInclude(u => u.StudentProfile!),
                     cancellationToken: cancellationToken
                 );
