@@ -61,7 +61,7 @@ public class GetByIdUserQuery : IRequest<GetByIdUserResponse>
             response.UserRole = userRole;
 
             // Role'e göre ek bilgileri al
-            if (userRole == "Student")
+            if (userRole == "STUDENT")
             {
                 var student = await _studentRepository.GetAsync(
                     predicate: s => s.Id == user.Id,
@@ -82,7 +82,7 @@ public class GetByIdUserQuery : IRequest<GetByIdUserResponse>
                     response.FacultyName = student.Department?.Faculty?.Name;
                 }
             }
-            else if (userRole == "Staff")
+            else if (userRole == "ADVISOR" || userRole == "DEPARTMENT_SECRETARY" || userRole == "DEANS_OFFICE_STAFF" || userRole == "STUDENT_AFFAIRS_STAFF")
             {
                 var staff = await _staffRepository.GetAsync(
                     predicate: s => s.Id == user.Id,
