@@ -100,6 +100,7 @@ public class PerformSystemEligibilityChecksCommandHandler : IRequestHandler<Perf
                 List<CourseTaken> coursesTaken = (await _courseTakenRepository.GetListAsync(
                     predicate: ct => ct.StudentUserId == studentId && ct.MatchedCourseId != null,
                     include: q => q.Include(ct => ct.MatchedCourse),
+                    size: 10000,
                     cancellationToken: cancellationToken
                 )).Items.ToList();
                 
