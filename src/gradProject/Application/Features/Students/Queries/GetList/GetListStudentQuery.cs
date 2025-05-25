@@ -39,6 +39,10 @@ public class GetListStudentQuery : IRequest<GetListResponse<GetListStudentListIt
             {
                 var graduationProcesses = await _graduationProcessRepository.GetListAsync(
                     predicate: gp => gp.Status == request.GraduationProcessStatus.Value,
+                    index: 0,
+                    size: 10000,
+                    withDeleted: false,
+                    enableTracking: false,
                     cancellationToken: cancellationToken
                 );
                 filteredStudentIds = graduationProcesses.Items.Select(gp => gp.StudentUserId).Distinct().ToList();
@@ -72,19 +76,26 @@ public class GetListStudentQuery : IRequest<GetListResponse<GetListStudentListIt
                 cancellationToken: cancellationToken
             );
 
-            // Get active graduation processes for each student
+            // Get ALL graduation processes for each student (not just active ones)
             var studentIds = students.Items.Select(s => s.Id).ToList();
-            var activeGraduationProcesses = await _graduationProcessRepository.GetListAsync(
+            var allGraduationProcesses = await _graduationProcessRepository.GetListAsync(
                 predicate: gp => studentIds.Contains(gp.StudentUserId),
                 orderBy: gp => gp.OrderByDescending(x => x.LastUpdateDate),
+                index: 0, // Start from first page
+                size: 10000, // Ensure we get all graduation processes, not limited by pagination
+                withDeleted: false, // Exclude soft deleted records
+                enableTracking: false, // Disable tracking for better performance
                 cancellationToken: cancellationToken
             );
 
             // Group by student and get the latest process for each
-            var latestProcessesByStudent = activeGraduationProcesses.Items
+            var latestProcessesByStudent = allGraduationProcesses.Items
                 .GroupBy(gp => gp.StudentUserId)
                 .ToDictionary(g => g.Key, g => g.OrderByDescending(p => p.LastUpdateDate).First());
 
+            // Debug: Log students without graduation processes
+            var studentsWithoutProcess = studentIds.Where(id => !latestProcessesByStudent.ContainsKey(id)).ToList();
+            
             // Map to DTOs and include graduation process information
             var studentDtos = students.Items.Select(student =>
             {
@@ -98,6 +109,15 @@ public class GetListStudentQuery : IRequest<GetListResponse<GetListStudentListIt
                     dto.ActiveGraduationProcessAcademicTerm = activeProcess.AcademicTerm;
                     dto.ActiveGraduationProcessInitiationDate = activeProcess.InitiationDate;
                     dto.ActiveGraduationProcessLastUpdateDate = activeProcess.LastUpdateDate;
+                }
+                else
+                {
+                    // Ensure null values are explicitly set for students without graduation processes
+                    dto.ActiveGraduationProcessId = null;
+                    dto.ActiveGraduationProcessStatus = null;
+                    dto.ActiveGraduationProcessAcademicTerm = null;
+                    dto.ActiveGraduationProcessInitiationDate = null;
+                    dto.ActiveGraduationProcessLastUpdateDate = null;
                 }
                 
                 return dto;

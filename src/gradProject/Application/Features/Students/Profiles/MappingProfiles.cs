@@ -6,6 +6,7 @@ using Application.Features.Students.Queries.GetList;
 using AutoMapper;
 using NArchitecture.Core.Application.Responses;
 using Domain.Entities;
+using Domain.Enums;
 using NArchitecture.Core.Persistence.Paging;
 
 namespace Application.Features.Students.Profiles;
@@ -32,6 +33,11 @@ public class MappingProfiles : Profile
             .ForMember(dest => dest.DepartmentName, opt => opt.MapFrom(src => src.Department.Name))
             .ForMember(dest => dest.FacultyId, opt => opt.MapFrom(src => src.Department.FacultyId))
             .ForMember(dest => dest.FacultyName, opt => opt.MapFrom(src => src.Department.Faculty.Name))
+            .ForMember(dest => dest.ActiveGraduationProcessId, opt => opt.MapFrom(src => (Guid?)null))
+            .ForMember(dest => dest.ActiveGraduationProcessStatus, opt => opt.MapFrom(src => (GraduationProcessStatus?)null))
+            .ForMember(dest => dest.ActiveGraduationProcessAcademicTerm, opt => opt.MapFrom(src => (string?)null))
+            .ForMember(dest => dest.ActiveGraduationProcessInitiationDate, opt => opt.MapFrom(src => (DateTime?)null))
+            .ForMember(dest => dest.ActiveGraduationProcessLastUpdateDate, opt => opt.MapFrom(src => (DateTime?)null))
             .ReverseMap();
         CreateMap<IPaginate<Student>, GetListResponse<GetListStudentListItemDto>>().ReverseMap();
         
