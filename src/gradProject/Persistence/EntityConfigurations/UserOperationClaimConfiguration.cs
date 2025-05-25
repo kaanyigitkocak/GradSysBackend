@@ -83,16 +83,16 @@ namespace Persistence.EntityConfigurations
             };
 
             // UserOperationClaimSeeds.cs'den gelen öğrenci rolleri
-            // StudentUser1Id'den StudentUser40Id'ye kadar olan UserSeeds'deki Guid'leri kullanacağız.
+            // StudentUser1Id'den StudentUser83Id'ye kadar olan UserSeeds'deki Guid'leri kullanacağız.
             // Bu ID'ler UserSeeds.cs içinde tanımlı olmalı.
-            for (int i = 1; i <= 40; i++)
+            for (int i = 1; i <= 83; i++)
             {
-                // UserSeeds sınıfında StudentUser1Id, StudentUser2Id ... StudentUser40Id gibi property'ler olduğunu varsayıyorum.
+                // UserSeeds sınıfında StudentUser1Id, StudentUser2Id ... StudentUser83Id gibi property'ler olduğunu varsayıyorum.
                 // Refleksiyon veya UserSeeds'den bir liste alarak bu ID'lere erişilebilir.
                 // Şimdilik placeholder olarak Guid.Parse kullanıyorum, UserSeeds.cs'deki gerçek ID'lere göre güncellenmeli.
                 // ÖNEMLİ NOT: UserSeeds.cs dosyasında StudentUser1Id, StudentUser2Id vb. Guid sabitlerinin olması gerekir.
                 // Eğer UserSeeds.cs'de bu ID'ler dinamik üretiliyorsa veya farklı bir yapıda ise bu kısım UserSeeds'e göre uyarlanmalıdır.
-                // Aşağıdaki satır, UserSeeds.cs içerisinde StudentUser1Id, StudentUser2Id ... StudentUser40Id gibi alanların olduğunu varsayar.
+                // Aşağıdaki satır, UserSeeds.cs içerisinde StudentUser1Id, StudentUser2Id ... StudentUser83Id gibi alanların olduğunu varsayar.
                 // Eğer bu alanlar yoksa, UserSeeds.cs'den bu ID'leri almanın bir yolu bulunmalı veya UserSeeds.cs de buna göre düzenlenmelidir.
                 // Örneğin: UserSeeds.GetAllStudentUserIds() gibi bir metod.
                 // Basitlik adına, UserSeeds'de bu ID'lerin Guid.Parse kullanımına göre olduğunu varsayıyorum

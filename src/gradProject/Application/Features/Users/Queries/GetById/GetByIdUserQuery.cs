@@ -54,6 +54,13 @@ public class GetByIdUserQuery : IRequest<GetByIdUserResponse>
             // Kullanıcının yetkilerini al
             IList<OperationClaim> userOperationClaims = await _userOperationClaimRepository.GetOperationClaimsByUserIdAsync(user!.Id);
             
+            // Debug log - User operation claims count
+            Console.WriteLine($"User {user.Id} has {userOperationClaims.Count} operation claims");
+            foreach (var claim in userOperationClaims)
+            {
+                Console.WriteLine($"Claim: {claim.Name}");
+            }
+            
             // Kullanıcının ilk operation claim'ini al (kullanıcının tek bir claim'i olduğu varsayımıyla)
             string? userRole = userOperationClaims.FirstOrDefault()?.Name;
 
