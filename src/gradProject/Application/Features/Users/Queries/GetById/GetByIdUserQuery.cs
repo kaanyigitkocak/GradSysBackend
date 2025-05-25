@@ -57,15 +57,15 @@ public class GetByIdUserQuery : IRequest<GetByIdUserResponse>
             // Kullanıcının ilk operation claim'ini al (kullanıcının tek bir claim'i olduğu varsayımıyla)
             string? userRole = userOperationClaims.FirstOrDefault()?.Name;
 
-            GetByIdUserResponse response = _mapper.Map<GetByIdUserResponse>(user);
-            response.UserRole = userRole;
+            GetByIdUserResponse response;
 
-            // Role'e göre ek bilgileri al
+            // Role'e göre uygun mapping yap
             if (userRole == "STUDENT")
             {
                 var student = await _studentRepository.GetAsync(
                     predicate: s => s.Id == user.Id,
-                    include: s => s.Include(x => x.Department)
+                    include: s => s.Include(x => x.User)
+                                  .Include(x => x.Department)
                                   .ThenInclude(d => d.Faculty),
                     enableTracking: false,
                     cancellationToken: cancellationToken
@@ -73,20 +73,21 @@ public class GetByIdUserQuery : IRequest<GetByIdUserResponse>
 
                 if (student != null)
                 {
-                    response.StudentNumber = student.StudentNumber;
-                    response.CurrentGpa = student.CurrentGpa;
-                    response.CurrentEctsCompleted = student.CurrentEctsCompleted;
-                    response.DepartmentId = student.DepartmentId;
-                    response.DepartmentName = student.Department?.Name;
-                    response.FacultyId = student.Department?.FacultyId;
-                    response.FacultyName = student.Department?.Faculty?.Name;
+                    response = _mapper.Map<GetByIdUserResponse>(student);
+                    response.UserRole = userRole;
+                }
+                else
+                {
+                    response = _mapper.Map<GetByIdUserResponse>(user);
+                    response.UserRole = userRole;
                 }
             }
             else if (userRole == "ADVISOR" || userRole == "DEPARTMENT_SECRETARY" || userRole == "DEANS_OFFICE_STAFF" || userRole == "STUDENT_AFFAIRS_STAFF")
             {
                 var staff = await _staffRepository.GetAsync(
                     predicate: s => s.Id == user.Id,
-                    include: s => s.Include(x => x.Department)
+                    include: s => s.Include(x => x.User)
+                                  .Include(x => x.Department)
                                   .ThenInclude(d => d.Faculty)
                                   .Include(x => x.Faculty),
                     enableTracking: false,
@@ -95,13 +96,19 @@ public class GetByIdUserQuery : IRequest<GetByIdUserResponse>
 
                 if (staff != null)
                 {
-                    response.StaffIdentificationNumber = staff.StaffIdentificationNumber;
-                    response.Title = staff.Title;
-                    response.DepartmentId = staff.DepartmentId;
-                    response.DepartmentName = staff.Department?.Name;
-                    response.FacultyId = staff.FacultyId ?? staff.Department?.FacultyId;
-                    response.FacultyName = staff.Faculty?.Name ?? staff.Department?.Faculty?.Name;
+                    response = _mapper.Map<GetByIdUserResponse>(staff);
+                    response.UserRole = userRole;
                 }
+                else
+                {
+                    response = _mapper.Map<GetByIdUserResponse>(user);
+                    response.UserRole = userRole;
+                }
+            }
+            else
+            {
+                response = _mapper.Map<GetByIdUserResponse>(user);
+                response.UserRole = userRole;
             }
 
             return response;
