@@ -37,6 +37,18 @@ public class StartGraduationForAllStudentsCommand : IRequest<StartedGraduationFo
 
         public async Task<StartedGraduationForAllStudentsResponse> Handle(StartGraduationForAllStudentsCommand request, CancellationToken cancellationToken)
         {
+            // Check if there are any existing graduation processes for the same academic term
+            IPaginate<GraduationProcess> existingProcesses = await _graduationProcessRepository.GetListAsync(
+                predicate: gp => gp.AcademicTerm == request.AcademicTerm,
+                size: 1, // We only need to check if any exists
+                cancellationToken: cancellationToken
+            );
+
+            if (existingProcesses.Items.Any())
+            {
+                throw new InvalidOperationException($"Graduation processes have already been initiated for the academic term ({request.AcademicTerm}). Multiple graduation processes cannot be started for the same term.");
+            }
+
             IPaginate<Student> students = await _studentRepository.GetListAsync(
                 size: int.MaxValue, // Tüm öğrencileri getirmek için pagination limitini kaldırıyoruz
                 cancellationToken: cancellationToken

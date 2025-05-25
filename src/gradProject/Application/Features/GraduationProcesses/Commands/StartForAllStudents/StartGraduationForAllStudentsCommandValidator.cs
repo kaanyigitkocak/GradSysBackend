@@ -7,7 +7,11 @@ public class StartGraduationForAllStudentsCommandValidator : AbstractValidator<S
     public StartGraduationForAllStudentsCommandValidator()
     {
         RuleFor(c => c.AcademicTerm)
-            .NotEmpty().WithMessage("Akademik dönem boş olamaz.")
-            .MaximumLength(50).WithMessage("Akademik dönem en fazla 50 karakter olabilir.");
+            .NotEmpty().WithMessage("Academic term cannot be empty.")
+            .MaximumLength(50).WithMessage("Academic term can be at most 50 characters.")
+            .Matches(@"^\d{4}-\d{4}-(Fall|Spring|Summer)$").WithMessage("Academic term format should be like '2023-2024-Fall'.");
+
+        RuleFor(c => c.InitiatedByUserId)
+            .NotEmpty().WithMessage("Initiated by user ID cannot be empty.");
     }
 } 
