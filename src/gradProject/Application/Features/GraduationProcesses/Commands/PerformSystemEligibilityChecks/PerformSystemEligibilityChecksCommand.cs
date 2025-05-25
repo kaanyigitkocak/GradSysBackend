@@ -107,6 +107,17 @@ public class PerformSystemEligibilityChecksCommandHandler : IRequestHandler<Perf
                 DateTime checkDate = DateTime.UtcNow;
                 bool currentProcessOverallSuccess = true;
 
+                // Debug: Log course counts by type
+                var technicalElectivesCount = coursesTaken.Count(ct => ct.IsSuccessfullyCompleted && ct.MatchedCourse?.CourseType == CourseType.ELECTIVE_TECHNICAL);
+                var nonTechnicalElectivesCount = coursesTaken.Count(ct => ct.IsSuccessfullyCompleted && ct.MatchedCourse?.CourseType == CourseType.ELECTIVE_NON_TECHNICAL);
+                var mandatoryCoursesCount = coursesTaken.Count(ct => ct.IsSuccessfullyCompleted && ct.MatchedCourse?.CourseType == CourseType.MANDATORY);
+                
+                // Debug: Log all courses taken with their types
+                var debugMessage = $"Student {studentId} courses: Total={coursesTaken.Count}, " +
+                                 $"Technical={technicalElectivesCount}, NonTechnical={nonTechnicalElectivesCount}, " +
+                                 $"Mandatory={mandatoryCoursesCount}. " +
+                                 $"Course details: {string.Join(", ", coursesTaken.Where(ct => ct.MatchedCourse != null).Select(ct => $"{ct.MatchedCourse.CourseCode}({ct.MatchedCourse.CourseType})"))}";
+
                 // 1. GPA Check
                 bool gpaMet = (studentProfile.CurrentGpa ?? 0) >= requirementSet.MinGpa;
                 resultsToCreate.Add(new EligibilityCheckResult(Guid.NewGuid(), graduationProcess.Id, EligibilityCheckType.GPA, gpaMet, (studentProfile.CurrentGpa ?? 0).ToString("F2"), requirementSet.MinGpa.ToString("F2"), checkDate));
@@ -130,16 +141,18 @@ public class PerformSystemEligibilityChecksCommandHandler : IRequestHandler<Perf
                 // 4. Technical Electives Check
                 if (requirementSet.MinTechnicalElectiveCoursesCount.HasValue) 
                 {
-                    bool techElectivesMet = countPassedElectives(CourseType.ELECTIVE_TECHNICAL) >= requirementSet.MinTechnicalElectiveCoursesCount.Value;
-                    resultsToCreate.Add(new EligibilityCheckResult(Guid.NewGuid(), graduationProcess.Id, EligibilityCheckType.TECHNICAL_ELECTIVES, techElectivesMet, countPassedElectives(CourseType.ELECTIVE_TECHNICAL).ToString(), requirementSet.MinTechnicalElectiveCoursesCount.Value.ToString(), checkDate)); 
+                    int actualTechElectives = countPassedElectives(CourseType.ELECTIVE_TECHNICAL);
+                    bool techElectivesMet = actualTechElectives >= requirementSet.MinTechnicalElectiveCoursesCount.Value;
+                    resultsToCreate.Add(new EligibilityCheckResult(Guid.NewGuid(), graduationProcess.Id, EligibilityCheckType.TECHNICAL_ELECTIVES, techElectivesMet, actualTechElectives.ToString(), requirementSet.MinTechnicalElectiveCoursesCount.Value.ToString(), checkDate, debugMessage)); 
                     if (!techElectivesMet) currentProcessOverallSuccess = false;
                 }
 
                 // 5. Non-Technical Electives Check
                 if (requirementSet.MinNonTechnicalElectiveCoursesCount.HasValue) 
                 {
-                    bool nonTechElectivesMet = countPassedElectives(CourseType.ELECTIVE_NON_TECHNICAL) >= requirementSet.MinNonTechnicalElectiveCoursesCount.Value;
-                    resultsToCreate.Add(new EligibilityCheckResult(Guid.NewGuid(), graduationProcess.Id, EligibilityCheckType.NON_TECHNICAL_ELECTIVES, nonTechElectivesMet, countPassedElectives(CourseType.ELECTIVE_NON_TECHNICAL).ToString(), requirementSet.MinNonTechnicalElectiveCoursesCount.Value.ToString(), checkDate));
+                    int actualNonTechElectives = countPassedElectives(CourseType.ELECTIVE_NON_TECHNICAL);
+                    bool nonTechElectivesMet = actualNonTechElectives >= requirementSet.MinNonTechnicalElectiveCoursesCount.Value;
+                    resultsToCreate.Add(new EligibilityCheckResult(Guid.NewGuid(), graduationProcess.Id, EligibilityCheckType.NON_TECHNICAL_ELECTIVES, nonTechElectivesMet, actualNonTechElectives.ToString(), requirementSet.MinNonTechnicalElectiveCoursesCount.Value.ToString(), checkDate, debugMessage));
                     if (!nonTechElectivesMet) currentProcessOverallSuccess = false;
                 }
                 
