@@ -98,10 +98,17 @@ public class PerformSystemEligibilityChecksCommandHandler : IRequestHandler<Perf
                 }
 
                 List<CourseTaken> coursesTaken = (await _courseTakenRepository.GetListAsync(
-                    predicate: ct => ct.StudentUserId == studentProfile.Id && ct.MatchedCourseId != null,
+                    predicate: ct => ct.StudentUserId == studentId && ct.MatchedCourseId != null,
                     include: q => q.Include(ct => ct.MatchedCourse),
                     cancellationToken: cancellationToken
                 )).Items.ToList();
+                
+                // Debug: Check if courses are loaded properly
+                Console.WriteLine($"DEBUG: Found {coursesTaken.Count} courses for student {studentId}");
+                foreach (var ct in coursesTaken.Take(5)) // Show first 5 courses
+                {
+                    Console.WriteLine($"DEBUG: Course {ct.CourseCodeInTranscript}, MatchedCourseId: {ct.MatchedCourseId}, MatchedCourse: {ct.MatchedCourse?.CourseCode}, CourseType: {ct.MatchedCourse?.CourseType}");
+                }
                 
                 List<EligibilityCheckResult> resultsToCreate = new List<EligibilityCheckResult>();
                 DateTime checkDate = DateTime.UtcNow;
@@ -117,7 +124,7 @@ public class PerformSystemEligibilityChecksCommandHandler : IRequestHandler<Perf
                                  $"Technical={technicalElectivesCount}, NonTechnical={nonTechnicalElectivesCount}, " +
                                  $"Mandatory={mandatoryCoursesCount}. " +
                                  $"Course details: {string.Join(", ", coursesTaken.Where(ct => ct.MatchedCourse != null).Select(ct => $"{ct.MatchedCourse.CourseCode}({ct.MatchedCourse.CourseType})"))}";
-
+                Console.WriteLine(debugMessage);
                 // 1. GPA Check
                 bool gpaMet = (studentProfile.CurrentGpa ?? 0) >= requirementSet.MinGpa;
                 resultsToCreate.Add(new EligibilityCheckResult(Guid.NewGuid(), graduationProcess.Id, EligibilityCheckType.GPA, gpaMet, (studentProfile.CurrentGpa ?? 0).ToString("F2"), requirementSet.MinGpa.ToString("F2"), checkDate));
