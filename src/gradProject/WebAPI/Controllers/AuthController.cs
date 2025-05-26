@@ -57,11 +57,6 @@ public class AuthController : BaseController
         [Required]
         public string LastName { get; set; } = string.Empty;
         
-        [Required]
-        public string PhoneNumber { get; set; } = string.Empty;
-        
-        [Required]
-        public string StudentNumber { get; set; } = string.Empty;
         
         [Required]
         public Guid DepartmentId { get; set; }
