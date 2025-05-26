@@ -101,6 +101,12 @@ public class GetListStudentQuery : IRequest<GetListResponse<GetListStudentListIt
             {
                 var dto = _mapper.Map<GetListStudentListItemDto>(student);
                 
+                // Format GPA to 2 decimal places
+                if (dto.CurrentGpa.HasValue)
+                {
+                    dto.CurrentGpa = Math.Round(dto.CurrentGpa.Value, 2);
+                }
+                
                 // Add active graduation process information if exists
                 if (latestProcessesByStudent.TryGetValue(student.Id, out var activeProcess))
                 {
