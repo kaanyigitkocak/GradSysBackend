@@ -80,8 +80,6 @@ public class AuthController : BaseController
             Password = request.Password,
             FirstName = request.FirstName,
             LastName = request.LastName,
-            PhoneNumber = request.PhoneNumber,
-            StudentNumber = request.StudentNumber,
             DepartmentId = request.DepartmentId,
             FacultyId = request.FacultyId
         };
