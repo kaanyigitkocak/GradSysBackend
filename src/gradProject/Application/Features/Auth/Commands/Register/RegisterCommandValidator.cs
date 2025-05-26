@@ -17,11 +17,6 @@ public class RegisterCommandValidator : AbstractValidator<RegisterCommand>
             );
         RuleFor(c => c.UserForRegisterDto.FirstName).NotEmpty();
         RuleFor(c => c.UserForRegisterDto.LastName).NotEmpty();
-        RuleFor(c => c.UserForRegisterDto.PhoneNumber).NotEmpty();
-        
-        // Öğrenci doğrulama
-        RuleFor(c => c.UserForRegisterDto.StudentNumber).NotEmpty()
-            .WithMessage("Student number is required.");
         RuleFor(c => c.UserForRegisterDto.DepartmentId).NotEmpty()
             .WithMessage("Department information is required.");
         RuleFor(c => c.UserForRegisterDto.FacultyId).NotEmpty()

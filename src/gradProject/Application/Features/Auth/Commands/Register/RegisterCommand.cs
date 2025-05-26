@@ -10,6 +10,7 @@ using NArchitecture.Core.Security.JWT;
 using System.Text.Json.Serialization;
 using NArchitecture.Core.Application.Pipelines.Validation;
 using NArchitecture.Core.CrossCuttingConcerns.Exception.Types;
+using Microsoft.EntityFrameworkCore;
 
 namespace Application.Features.Auth.Commands.Register;
 
@@ -19,10 +20,8 @@ public class UserForRegisterDto : IDto
     public string Password { get; set; } = string.Empty;
     public string FirstName { get; set; } = string.Empty;
     public string LastName { get; set; } = string.Empty;
-    public string PhoneNumber { get; set; } = string.Empty;
     
     // Öğrenci özellikleri
-    public string StudentNumber { get; set; } = string.Empty;
     public Guid DepartmentId { get; set; }
     public Guid FacultyId { get; set; }
 }
@@ -75,44 +74,57 @@ public class RegisterCommand : IRequest<RegisteredResponse>
 
         public async Task<RegisteredResponse> Handle(RegisterCommand request, CancellationToken cancellationToken)
         {
-            // 1. Öğrenciyi numarasına göre bul
+            // Try to find an existing student with the provided details
             Student? student = await _studentRepository.GetAsync(
-                predicate: s => s.StudentNumber == request.UserForRegisterDto.StudentNumber,
+                predicate: s => 
+                    s.User.Email == request.UserForRegisterDto.Email &&
+                    s.User.FirstName == request.UserForRegisterDto.FirstName &&
+                    s.User.LastName == request.UserForRegisterDto.LastName &&
+                    s.DepartmentId == request.UserForRegisterDto.DepartmentId &&
+                    s.Department.FacultyId == request.UserForRegisterDto.FacultyId, // Assuming Department entity has FacultyId
+                include: s => s.Include(u => u.User).Include(d => d.Department), // Include User and Department for checking
                 cancellationToken: cancellationToken
             );
 
-            if (student == null)
-                throw new BusinessException("Student not found.");
+            User? user;
 
-            // 2. Öğrenciye ait kullanıcıyı bul (Student.Id == User.Id varsayımıyla)
-            User? user = await _userRepository.GetAsync(predicate: u => u.Id == student.Id, cancellationToken: cancellationToken);
-
-            if (user == null) // Bu durum normalde olmamalı, veri tutarsızlığıdır.
-                throw new BusinessException("User not found for the given student.");
-
-            // 3. Kullanıcı zaten aktif mi kontrol et
-            if (user.IsActive)
-                throw new BusinessException("An active account already exists for this student number.");
-
-            // 4. Bölüm bilgilerini kontrol et
-            if (student.DepartmentId != request.UserForRegisterDto.DepartmentId)
-                throw new BusinessException("Department information does not match.");
-            
-
-
-            // 5. E-posta değişiyorsa, yeni e-postanın başkası tarafından kullanılmadığını kontrol et
-            if (user.Email != request.UserForRegisterDto.Email)
+            if (student != null)
             {
+                user = student.User; // Get the associated user
+                if (user.IsActive)
+                {
+                    throw new BusinessException("An active account with these details already exists.");
+                }
+                // User exists but is not active, so we will update and activate them.
+            }
+            else
+            {
+                // No existing student found with these exact details. Check if the email is used by another active user.
                 await _authBusinessRules.UserEmailShouldBeNotExists(request.UserForRegisterDto.Email);
+
+                // Create a new User
+                user = new User
+                {
+                    Email = request.UserForRegisterDto.Email,
+                    FirstName = request.UserForRegisterDto.FirstName,
+                    LastName = request.UserForRegisterDto.LastName,
+                    UserName = request.UserForRegisterDto.Email, // Or generate a unique username
+                    // PhoneNumber can be set to null or an empty string if not collected
+                };
+
+                // Create a new Student profile
+                student = new Student
+                {
+                    // StudentNumber will not be set from input, can be generated or left null if not mandatory
+                    DepartmentId = request.UserForRegisterDto.DepartmentId,
+                    // FacultyId is implicitly checked via Department.FacultyId
+                    User = user, // Associate the new user
+                    Id = user.Id // Ensure Student.Id is the same as User.Id for consistency
+                };
+                await _studentRepository.AddAsync(student); // This will also add the user due to EF Core relationship
             }
 
-            // 6. Kullanıcı bilgilerini güncelle
-            user.FirstName = request.UserForRegisterDto.FirstName;
-            user.LastName = request.UserForRegisterDto.LastName;
-            user.PhoneNumber = request.UserForRegisterDto.PhoneNumber;
-            user.Email = request.UserForRegisterDto.Email;
-            user.UserName = request.UserForRegisterDto.Email;
-            
+            // Update common user fields (password, active status, email verified status)
             HashingHelper.CreatePasswordHash(
                 request.UserForRegisterDto.Password,
                 passwordHash: out byte[] passwordHash,
@@ -120,13 +132,43 @@ public class RegisterCommand : IRequest<RegisteredResponse>
             );
             user.PasswordHash = passwordHash;
             user.PasswordSalt = passwordSalt;
-            
             user.IsActive = true;
-            user.IsEmailVerified = true; // E-posta doğrulama yapıldığı için true olarak ayarlandı
+            user.IsEmailVerified = true; 
 
-            await _userRepository.UpdateAsync(user);
+            // Update the user (if existing) or save the new user (if created via student)
+            // If student was new, user is also new and will be saved via studentRepository.AddAsync(student)
+            // If student existed, user existed, so we need to update the user.
+            if (student != null && user.Id != Guid.Empty) // Check if user was pre-existing
+            {
+                 await _userRepository.UpdateAsync(user);
+            }
+            // else: user is new and already added with student. No explicit user add/update needed here.
 
-            // 7. Token'ları oluştur
+
+            // Assign default "Student" role if not already assigned
+            // This part might need adjustment based on how roles are managed.
+            // For simplicity, let's assume a "Student" role exists and needs to be assigned.
+            OperationClaim? studentRole = await _operationClaimRepository.GetAsync(
+                predicate: oc => oc.Name == BaseOperationClaims.Student, // Changed from GeneralApplicationConstants.StudentRoleName
+                cancellationToken: cancellationToken
+            );
+
+            if (studentRole != null)
+            {
+                // Check if user already has this role, especially if reactivating
+                bool hasStudentRole = await _userOperationClaimRepository.AnyAsync(
+                    predicate: uoc => uoc.UserId == user.Id && uoc.OperationClaimId == studentRole.Id,
+                    cancellationToken: cancellationToken
+                );
+
+                if (!hasStudentRole)
+                {
+                    UserOperationClaim userOperationClaim = new() { UserId = user.Id, OperationClaimId = studentRole.Id };
+                    await _userOperationClaimRepository.AddAsync(userOperationClaim);
+                }
+            }
+
+
             AccessToken createdAccessToken = await _authService.CreateAccessToken(user);
             Domain.Entities.RefreshToken createdRefreshToken = await _authService.CreateRefreshToken(user, request.IpAddress);
             Domain.Entities.RefreshToken addedRefreshToken = await _authService.AddRefreshToken(createdRefreshToken);
